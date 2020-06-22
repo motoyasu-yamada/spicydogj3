@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+MicroEdition-Configuration:CLDC-1.0
+MIDlet-Name:${Title}
+Created-By: 1.4.1_01 (Sun Microsystems Inc.)
+MIDlet-Icon: icon.png
+MIDlet-Vendor:${Vendor}
+MIDlet-1:${Title},icon.png,SpicydogApp
+MIDlet-Version:1.0
+MicroEdition-Profile:MIDP-1.0

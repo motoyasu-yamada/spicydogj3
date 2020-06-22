@@ -1,0 +1,5 @@
+#define DIALOG_BUTTON_YES    0
+#define DIALOG_DIALOG_YESNO 0
+#define DIALOG_BUTTON_NO     0
+#define DIALOG_DIALOG_INFO   0
+#define DIALOG_BUTTON_OK     0

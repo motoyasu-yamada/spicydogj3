@@ -1,0 +1,3 @@
+スパイシードッグの著作権および全ての権利はスパイシーソフト株式会社が保有します。
+SpicyDog Copyright (C) 2000-2003 Spicysoft Corporation.All rights reserved.
+このアプリケーションはGIF画像の出力および読込に必要なUNISYS社のライセンス許可を取得しライセンス料を支払っています。

@@ -1,0 +1,2809 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+#include "toolkit\secres.h"
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 日本語 resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+#ifdef _WIN32
+LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+#pragma code_page(932)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// TXT
+//
+
+IDT_LICENSE_REMARKS     TXT     DISCARDABLE     "res\\txt\\LICENSE_REMARKS.TXT"
+IDT_STAFF               TXT     DISCARDABLE     "res\\txt\\STAFF.TXT"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CENTER              CURSOR  DISCARDABLE     "res\\cur\\center.cur"
+IDC_DRAW_DOT            CURSOR  DISCARDABLE     "res\\cur\\drawdot.cur"
+IDC_SEL_RECT            CURSOR  DISCARDABLE     "res\\cur\\draw_rec.cur"
+IDC_SEL_RECT_RESET      CURSOR  DISCARDABLE     "res\\cur\\sel_rect.cur"
+IDC_POINTER             CURSOR  DISCARDABLE     "res\\cur\\pointer.cur"
+IDC_SPOIT               CURSOR  DISCARDABLE     "res\\cur\\spoit.cur"
+IDC_SCRVIEW_MOVE        CURSOR  DISCARDABLE     "res\\cur\\viewmove.cur"
+IDC_SCRVIEW_ZOOM        CURSOR  DISCARDABLE     "res\\cur\\viewzoom.CUR"
+IDC_SEL_MOVE            CURSOR  DISCARDABLE     "res\\cur\\sel_move.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\ico\\appli.ico"
+IDI_TRIM_B              ICON    DISCARDABLE     "res\\ico\\trim_b.ico"
+IDI_FONTSTYLE_BOLD      ICON    DISCARDABLE     "res\\ico\\bold.ico"
+IDI_KEY1                ICON    DISCARDABLE     "res\\ico\\key1.ico"
+IDI_KEY0                ICON    DISCARDABLE     "res\\ico\\key0.ico"
+IDI_KEY2                ICON    DISCARDABLE     "res\\ico\\key2.ico"
+IDI_KEY3                ICON    DISCARDABLE     "res\\ico\\key3.ico"
+IDI_KEY4                ICON    DISCARDABLE     "res\\ico\\key4.ico"
+IDI_KEY5                ICON    DISCARDABLE     "res\\ico\\key5.ico"
+IDI_KEY6                ICON    DISCARDABLE     "res\\ico\\key6.ico"
+IDI_KEY7                ICON    DISCARDABLE     "res\\ico\\key7.ico"
+IDI_KEY8                ICON    DISCARDABLE     "res\\ico\\key8.ico"
+IDI_KEY9                ICON    DISCARDABLE     "res\\ico\\key9.ico"
+IDI_KEYASTER            ICON    DISCARDABLE     "res\\ico\\keyaster.ico"
+IDI_KEYDOWN             ICON    DISCARDABLE     "res\\ico\\keydown.ico"
+IDI_KEYIAPP             ICON    DISCARDABLE     "res\\ico\\keyapp.ico"
+IDI_KEYLEFT             ICON    DISCARDABLE     "res\\ico\\keyleft.ico"
+IDI_KEYRIGHT            ICON    DISCARDABLE     "res\\ico\\keyright.ico"
+IDI_KEYSELECT           ICON    DISCARDABLE     "res\\ico\\keyselec.ico"
+IDI_KEYSHARP            ICON    DISCARDABLE     "res\\ico\\keysharp.ico"
+IDI_KEYSOFTKEY1         ICON    DISCARDABLE     "res\\ico\\keysoft1.ico"
+IDI_KEYSOFTKEY2         ICON    DISCARDABLE     "res\\ico\\keysoft2.ico"
+IDI_KEYUP               ICON    DISCARDABLE     "res\\ico\\keyup.ico"
+IDI_FONTSTYLE_ITALIC    ICON    DISCARDABLE     "res\\ico\\italic.ico"
+IDI_FONTSTYLE_UNDERLINE ICON    DISCARDABLE     "res\\ico\\fontstyl.ico"
+IDI_TRIM_C              ICON    DISCARDABLE     "res\\ico\\trim_c.ico"
+IDI_TRIM_L              ICON    DISCARDABLE     "res\\ico\\trim_l.ico"
+IDI_TRIM_LB             ICON    DISCARDABLE     "res\\ico\\trim_lb.ico"
+IDI_TRIM_LT             ICON    DISCARDABLE     "res\\ico\\trim_lt.ico"
+IDI_TRIM_R              ICON    DISCARDABLE     "res\\ico\\trim_r.ico"
+IDI_TRIM_RB             ICON    DISCARDABLE     "res\\ico\\trim_rb.ico"
+IDI_TRIM_RT             ICON    DISCARDABLE     "res\\ico\\trim_rt.ico"
+IDI_TRIM_T              ICON    DISCARDABLE     "res\\ico\\trim_t.ico"
+IDI_UPLOAD_DONE         ICON    DISCARDABLE     "res\\ico\\MSGBOX04.ICO"
+IDI_UPLOAD_WARNING      ICON    DISCARDABLE     "res\\ico\\MSGBOX03.ICO"
+IDR_SDBTYPE             ICON    DISCARDABLE     "res\\ico\\document.ico"
+IDI_SPEAKER_R           ICON    DISCARDABLE     "res\\ico\\speaker_.ico"
+IDI_SPEAKER_L           ICON    DISCARDABLE     "res\\ico\\ico00001.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_TBLOGO              BITMAP  DISCARDABLE     "res\\bmp\\tlogo.bmp"
+IDB_BN_SPICYSOFT        BITMAP  DISCARDABLE     "res\\bmp\\bn_spicysoft.bmp"
+IDB_BN_JPHONE           BITMAP  DISCARDABLE     "res\\bmp\\bn_jphone.bmp"
+IDB_BN_SPICYDOG         BITMAP  DISCARDABLE     "res\\bmp\\bn_spicydog.bmp"
+IDB_CHAR_TYPE           BITMAP  DISCARDABLE     "res\\bmp\\chartype.bmp"
+IDB_CHARTYPE            BITMAP  DISCARDABLE     "res\\bmp\\bmp00001.bmp"
+IDT_CHARLIST            BITMAP  DISCARDABLE     "res\\bmp\\idt_dictionary.bmp"
+IDT_PLAY                BITMAP  DISCARDABLE     "res\\bmp\\play.bmp"
+IDT_VIEW                BITMAP  DISCARDABLE     "res\\bmp\\toolbar2.bmp"
+IDT_MODIFY              BITMAP  DISCARDABLE     "res\\bmp\\toolbar1.bmp"
+IDT_PICT                BITMAP  DISCARDABLE     "res\\bmp\\idt_pict.bmp"
+IDT_STAGES              BITMAP  DISCARDABLE     "res\\bmp\\idt_stag.bmp"
+IDB_STAGES              BITMAP  DISCARDABLE     "res\\bmp\\stages.bmp"
+IDT_DRAW                BITMAP  DISCARDABLE     "res\\bmp\\idt_shav.bmp"
+IDB_CLR_CLOSE           BITMAP  DISCARDABLE     "res\\bmp\\clr_clos.bmp"
+IDB_CLR_DLG             BITMAP  DISCARDABLE     "res\\bmp\\clr_dlg.bmp"
+IDB_CLR_NULL            BITMAP  DISCARDABLE     "res\\bmp\\clr_null.bmp"
+IDB_CLR_SPOIT           BITMAP  DISCARDABLE     "res\\bmp\\clr_spoi.bmp"
+IDB_COLORBOX            BITMAP  DISCARDABLE     "res\\bmp\\bitmap2.bmp"
+IDB_COMMAND             BITMAP  DISCARDABLE     "res\\bmp\\command.bmp"
+IDB_HISTORY             BITMAP  DISCARDABLE     "res\\bmp\\history.bmp"
+IDT_HISTORY             BITMAP  DISCARDABLE     "res\\bmp\\itb_history.bmp"
+IDB_CLRBOX_BKGND        BITMAP  DISCARDABLE     "res\\bmp\\paint3.bmp"
+IDB_CLRBOX_FRAME        BITMAP  DISCARDABLE     "res\\bmp\\paint1.bmp"
+IDB_WIZHDR              BITMAP  DISCARDABLE     "res\\bmp\\bmphdr.bmp"
+IDB_BUILD               BITMAP  DISCARDABLE     "res\\bmp\\build.bmp"
+IDB_LINE                BITMAP  DISCARDABLE     "res\\bmp\\line.bmp"
+IDB_BUILDBAR_ICON       BITMAP  DISCARDABLE     "res\\bmp\\bitmap1.bmp"
+IDB_PAINT               BITMAP  DISCARDABLE     "res\\bmp\\paint.bmp"
+IDT_SCALEBOX            BITMAP  DISCARDABLE     "res\\bmp\\bmp00002.bmp"
+IDT_FRAME               BITMAP  DISCARDABLE     "res\\bmp\\idt_frame.bmp"
+IDT_LAYER               BITMAP  DISCARDABLE     "res\\bmp\\idt_laye.bmp"
+IDB_LAYERCHAR           BITMAP  DISCARDABLE     "res\\bmp\\layerchar.bmp"
+IDB_LAYERICON           BITMAP  DISCARDABLE     "res\\bmp\\icolayer.bmp"
+IDB_ICON                BITMAP  DISCARDABLE     "res\\bmp\\charview.bmp"
+IDT_INSCHAR             BITMAP  DISCARDABLE     "res\\bmp\\inschar.bmp"
+IDT_BUILD               BITMAP  DISCARDABLE     "res\\bmp\\idt_buil.bmp"
+IDT_ETC                 BITMAP  DISCARDABLE     "res\\bmp\\itb_etc.bmp"
+IDB_CLRBOX_TRANS        BITMAP  DISCARDABLE     "res\\bmp\\paint2.bmp"
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "res\\bmp\\Toolbar.bmp"
+IDB_SPLASH              BITMAP  DISCARDABLE     "res\\bmp\\splash.bmp"
+IDB_VERSION             BITMAP  DISCARDABLE     "res\\bmp\\about.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_TIMELINEPREVIEW DIALOG DISCARDABLE  0, 0, 322, 85
+STYLE DS_CENTER | WS_POPUP | WS_CLIPCHILDREN | WS_CAPTION | WS_SYSMENU | 
+    WS_THICKFRAME
+CAPTION "タイムラインプレビュー"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    PUSHBUTTON      "再生",IDOK,0,74,20,11
+    SCROLLBAR       1013,28,74,294,11
+END
+
+IDD_TIMELINE DIALOG DISCARDABLE  0, 0, 316, 143
+STYLE WS_CHILD
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    SCROLLBAR       IDCS_V,306,0,10,132,SBS_VERT
+    SCROLLBAR       IDCS_H,194,132,113,11
+    CONTROL         "",IDCS_SPLITTER,"Static",SS_GRAYRECT | SS_NOTIFY,140,0,
+                    1,143
+END
+
+IDD_PICT_RESIZE DIALOG DISCARDABLE  0, 0, 165, 109
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "画像リサイズ"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    LTEXT           "幅(&W):",IDC_STATIC,10,16,19,8
+    EDITTEXT        IDCE_W,31,13,45,14,ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDCS_W,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | 
+                    UDS_NOTHOUSANDS | UDS_HOTTRACK,77,18,9,14
+    LTEXT           "高(&Y):",IDC_STATIC,91,16,18,8
+    EDITTEXT        IDCE_H,110,13,45,14,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    CONTROL         "",IDCS_H,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | 
+                    UDS_NOTHOUSANDS | UDS_HOTTRACK,144,18,9,14
+    CONTROL         "比率を保持する",IDCC_KEEP,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,11,42,96,10
+    DEFPUSHBUTTON   "OK",IDOK,105,87,50,14
+    PUSHBUTTON      "キャンセル",IDCANCEL,51,87,50,14
+    PUSHBUTTON      "リセット",IDCB_RESET,105,64,50,14
+END
+
+IDD_PICT_TRIM DIALOG DISCARDABLE  0, 0, 167, 155
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "画像トリム"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    LTEXT           "幅(&W):",IDC_STATIC,6,20,19,8
+    EDITTEXT        IDCE_W,27,17,45,14,ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDCS_W,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | 
+                    UDS_NOTHOUSANDS | UDS_HOTTRACK,73,17,9,14
+    LTEXT           "高(&Y):",IDC_STATIC,6,47,18,8
+    EDITTEXT        IDCE_H,27,43,45,14,ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDCS_H,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | 
+                    UDS_NOTHOUSANDS | UDS_HOTTRACK,73,43,9,14
+    GROUPBOX        "整列(&A)",IDC_STATIC,88,9,72,91
+    CONTROL         "",IDCR_LT,"Button",BS_AUTORADIOBUTTON | BS_ICON | 
+                    BS_PUSHLIKE | WS_GROUP,95,25,18,21
+    CONTROL         "",IDCR_T,"Button",BS_AUTORADIOBUTTON | BS_ICON | 
+                    BS_PUSHLIKE,113,25,18,21
+    CONTROL         "",IDCR_RT,"Button",BS_AUTORADIOBUTTON | BS_ICON | 
+                    BS_PUSHLIKE,132,25,18,21
+    CONTROL         "",IDCR_L,"Button",BS_AUTORADIOBUTTON | BS_ICON | 
+                    BS_PUSHLIKE,95,47,18,21
+    CONTROL         "",IDCR_C,"Button",BS_AUTORADIOBUTTON | BS_ICON | 
+                    BS_PUSHLIKE,113,47,18,21
+    CONTROL         "",IDCR_R,"Button",BS_AUTORADIOBUTTON | BS_ICON | 
+                    BS_PUSHLIKE,132,47,18,21
+    CONTROL         "",IDCR_LB,"Button",BS_AUTORADIOBUTTON | BS_ICON | 
+                    BS_PUSHLIKE,95,69,18,21
+    CONTROL         "",IDCR_B,"Button",BS_AUTORADIOBUTTON | BS_ICON | 
+                    BS_PUSHLIKE,113,69,18,21
+    CONTROL         "",IDCR_RB,"Button",BS_AUTORADIOBUTTON | BS_ICON | 
+                    BS_PUSHLIKE,132,69,18,21
+    DEFPUSHBUTTON   "OK",IDOK,109,133,50,14
+    PUSHBUTTON      "リセット(&R)",IDCB_RESET,109,110,50,14,WS_GROUP
+    PUSHBUTTON      "キャンセル",IDCANCEL,54,133,50,14
+END
+
+IDD_VIEWADF DIALOG DISCARDABLE  0, 0, 254, 162
+STYLE WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "JADを閲覧する"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    EDITTEXT        IDCE_ADF,0,0,254,163,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_AUTOHSCROLL | ES_READONLY | ES_WANTRETURN | 
+                    WS_VSCROLL
+END
+
+IDD_HISTORY DIALOG DISCARDABLE  0, 0, 119, 107
+STYLE DS_3DLOOK | DS_CONTROL | WS_CHILD | WS_CLIPSIBLINGS
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    CONTROL         "",IDCL_HISTORY,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_OWNERDRAWFIXED | LVS_OWNERDATA | 
+                    LVS_NOCOLUMNHEADER | WS_BORDER | WS_TABSTOP,0,0,118,107
+END
+
+IDD_APPBUGDUMP DIALOG DISCARDABLE  0, 0, 291, 237
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "[障害報告]大変申し訳ございません"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    CONTROL         10154,IDC_STATIC,"Static",SS_BITMAP,0,0,341,40
+    ICON            IDR_MAINFRAME,IDC_STATIC,6,47,20,20
+    LTEXT           "エラー名(&N):",IDC_STATIC,35,53,37,8
+    LTEXT           "件名",IDCS_SUBJECT,80,53,197,8
+    EDITTEXT        IDCE_BODY,6,74,281,106,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_AUTOHSCROLL | ES_NOHIDESEL | ES_READONLY | 
+                    ES_WANTRETURN | WS_VSCROLL | WS_HSCROLL
+    LTEXT           "エラー情報をクリップボードにコピーしました。下記のボタンを押すとメーラーが起動するのでペーストして送信してください。",
+                    IDC_STATIC,7,188,280,19
+    DEFPUSHBUTTON   "メーラーを開く...",IDCB_OPEN_MAILER,150,217,69,14
+    PUSHBUTTON      "サイトを開く...",IDCB_WWW_SPICYDOG,81,217,65,14
+    PUSHBUTTON      "閉じる",IDOK,223,217,63,14,NOT WS_TABSTOP
+END
+
+IDD_ACTDLG_SOUND_PLAY DIALOG DISCARDABLE  0, 0, 134, 116
+STYLE DS_3DLOOK | DS_CONTROL | WS_CHILD
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    COMBOBOX        IDCC_SOUND_CHARS,7,23,119,86,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "再生サウンドを選択する(&S):",IDC_STATIC,7,9,96,8
+END
+
+IDD_VERSION DIALOG DISCARDABLE  0, 0, 235, 149
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "バージョン情報"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    CONTROL         10158,IDC_STATIC,"Static",SS_BITMAP | SS_REALSIZEIMAGE,0,
+                    0,229,200
+    DEFPUSHBUTTON   "OK",IDOK,182,132,50,14,WS_GROUP
+    LTEXT           "バージョン(&V):",IDC_STATIC,2,132,42,8
+    LTEXT           "2.0.000.000",IDCS_VERSION,49,132,65,8
+    EDITTEXT        IDCE_REMARKS,141,131,6,12,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_READONLY | ES_WANTRETURN | NOT WS_VISIBLE | 
+                    WS_VSCROLL
+    LTEXT           "スタッフ(&S):",IDC_STATIC,151,132,9,8,NOT WS_VISIBLE
+    EDITTEXT        IDCE_STAFF,163,130,16,12,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_AUTOHSCROLL | ES_READONLY | ES_WANTRETURN | NOT 
+                    WS_VISIBLE | WS_VSCROLL
+    CONTROL         10130,ID_WWW_JPHONE,"Static",SS_BITMAP | SS_NOTIFY,140,
+                    99,69,29
+    CONTROL         10132,ID_WWW_SPICYSOFT,"Static",SS_BITMAP | SS_NOTIFY,70,
+                    99,69,29
+    CONTROL         10131,ID_WWW_SPICYDOG,"Static",SS_BITMAP | SS_NOTIFY,0,
+                    99,69,29
+END
+
+IDD_ACTDLG_JUMP DIALOG DISCARDABLE  0, 0, 134, 116
+STYLE DS_3DLOOK | DS_CONTROL | WS_CHILD
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    COMBOBOX        IDCC_LABEL_LIST,5,20,121,121,CBS_DROPDOWNLIST | 
+                    CBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "ジャンプ先(&L):",IDC_STATIC,5,7,40,8
+END
+
+IDD_ACTDLG_SET_SOFTKEY DIALOG DISCARDABLE  0, 0, 134, 116
+STYLE DS_3DLOOK | DS_CONTROL | WS_CHILD
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    CONTROL         "ソフトキー左(&1):",IDCR_SOFTKEY1,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,5,10,57,10
+    CONTROL         "ソフトキー右(&2):",IDCR_SOFTKEY2,"Button",
+                    BS_AUTORADIOBUTTON,5,26,57,10
+    LTEXT           "ラベル文字列(&L):",IDC_STATIC,7,48,85,8
+    EDITTEXT        IDCE_LABEL,7,61,40,14,ES_AUTOHSCROLL
+    LTEXT           "(0～4bytes)",IDC_STATIC,50,65,75,8
+END
+
+IDD_ACTDLG_SET_BACKLIGHT DIALOG DISCARDABLE  0, 0, 134, 116
+STYLE DS_3DLOOK | DS_CONTROL | WS_CHILD
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    CONTROL         "オフ",IDCR_OFF,"Button",BS_AUTORADIOBUTTON | WS_GROUP,
+                    16,36,63,10
+    CONTROL         "オン",IDCR_ON,"Button",BS_AUTORADIOBUTTON,16,21,63,10
+    LTEXT           "バックライト制御(&B):",IDC_STATIC,6,8,59,8
+END
+
+IDD_ACTION DIALOG DISCARDABLE  0, 0, 268, 161
+STYLE DS_3DLOOK | DS_CONTROL | WS_CHILD
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    PUSHBUTTON      "挿入(&I)",IDCB_ACT_INS,3,129,50,14
+    PUSHBUTTON      "削除(&G)",IDCB_ACT_DEL,56,129,50,14
+    PUSHBUTTON      "上へ移動(&U)",IDCB_ACT_UP,3,145,50,14
+    PUSHBUTTON      "下へ移動(&D)",IDCB_ACT_DOWN,56,145,50,14
+    CONTROL         "",IDCS_PROPDLG,"Static",SS_GRAYRECT | NOT WS_VISIBLE,
+                    124,18,134,130
+    GROUPBOX        "",IDCS_ACTIONNAME,118,5,147,150
+    LTEXT           "選択したアクションにはプロパティはありません",
+                    IDCS_NOPROP,135,62,114,33
+    LISTBOX         IDCL_ACTIONLIST,3,17,106,108,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "アクション実行リスト(&L):",IDC_STATIC,3,5,68,8
+END
+
+IDD_ACTDLG_DELAY_JUMP DIALOG DISCARDABLE  0, 0, 134, 116
+STYLE DS_3DLOOK | DS_CONTROL | WS_CHILD
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    COMBOBOX        IDCC_LABEL_LIST,5,20,121,121,CBS_DROPDOWNLIST | 
+                    CBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "ジャンプ先(&L):",IDC_STATIC,5,7,40,8
+    LTEXT           "遅延時間(&D):",IDC_STATIC,5,41,120,8
+    EDITTEXT        IDCE_DELAY,5,55,51,14,ES_AUTOHSCROLL
+    LTEXT           "㍉秒",IDC_STATIC,61,58,30,8
+END
+
+IDD_ACTDLG_RANDOM_JUMP DIALOG DISCARDABLE  0, 0, 134, 116
+STYLE DS_3DLOOK | DS_CONTROL | WS_CHILD
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    CONTROL         "",IDCL_CASES,"SysListView32",LVS_REPORT | LVS_SINGLESEL | 
+                    WS_BORDER | WS_TABSTOP,0,0,134,101
+    PUSHBUTTON      "追加...",IDCB_INS,37,101,31,14
+    PUSHBUTTON      "修正...",IDCB_MOD,70,101,31,14
+    PUSHBUTTON      "削除",IDCB_DEL,103,101,31,14
+END
+
+IDD_ACTDLG_RANDOM_JUMP_CASE DIALOG DISCARDABLE  0, 0, 191, 79
+STYLE DS_MODALFRAME | WS_CAPTION | WS_SYSMENU
+CAPTION "ケース編集"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    LTEXT           "ジャンプ先(&L):",IDC_STATIC,3,4,40,8
+    COMBOBOX        IDCC_LABEL_LIST,3,17,180,121,CBS_DROPDOWNLIST | 
+                    CBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "確率(&P):",IDC_STATIC,5,40,45,8
+    EDITTEXT        IDCE_PROBABILITY,57,37,40,14,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    PUSHBUTTON      "OK",IDOK,133,60,50,14
+    PUSHBUTTON      "キャンセル",IDCANCEL,81,60,50,14
+END
+
+IDD_ACTDLG_SET_BACKGROUND_COLOR DIALOG DISCARDABLE  0, 0, 134, 116
+STYLE DS_3DLOOK | DS_CONTROL | WS_CHILD
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    LTEXT           "色(&C):",IDC_STATIC,4,5,46,8
+    CONTROL         "",IDCB_BACKGROUND_COLOR,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,4,19,50,14
+END
+
+IDD_ACTDLG_SET_VIBRATION DIALOG DISCARDABLE  0, 0, 134, 116
+STYLE DS_3DLOOK | DS_CONTROL | WS_CHILD
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    CONTROL         "バイブレーション停止",IDCR_OFF,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,16,36,78,10
+    CONTROL         "バイブレーション開始",IDCR_ON,"Button",
+                    BS_AUTORADIOBUTTON,16,21,78,10
+    LTEXT           "バイブレーション制御(&V):",IDC_STATIC,6,8,73,8
+END
+
+IDD_BTN_CHAR DIALOG DISCARDABLE  0, 0, 358, 271
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "ボタンキャラクタ編集"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    LTEXT           "ノーマル状態(&N):",-1,4,5,60,8
+    CONTROL         "",IDCS_PREVIEW_N,"Static",SS_GRAYRECT | WS_BORDER,4,34,
+                    74,90
+    LTEXT           "アクティブ状態(&A):",-1,5,131,64,8
+    CONTROL         "",IDCS_PREVIEW_A,"Static",SS_GRAYRECT | WS_BORDER,5,159,
+                    74,90
+    CONTROL         "",-1,"Static",SS_ETCHEDVERT,83,5,1,243
+    LTEXT           "キーイベント(&K):",-1,89,4,47,8
+    CONTROL         "1",IDCC_KEY1,"Button",BS_AUTOCHECKBOX | BS_ICON | 
+                    BS_PUSHLIKE | WS_TABSTOP,89,14,12,14
+    CONTROL         "2",IDCC_KEY2,"Button",BS_AUTOCHECKBOX | BS_ICON | 
+                    BS_PUSHLIKE | WS_TABSTOP,101,14,12,14
+    CONTROL         "3",IDCC_KEY3,"Button",BS_AUTOCHECKBOX | BS_ICON | 
+                    BS_PUSHLIKE | WS_TABSTOP,113,14,12,14
+    CONTROL         "4",IDCC_KEY4,"Button",BS_AUTOCHECKBOX | BS_ICON | 
+                    BS_PUSHLIKE | WS_TABSTOP,125,14,12,14
+    CONTROL         "5",IDCC_KEY5,"Button",BS_AUTOCHECKBOX | BS_ICON | 
+                    BS_PUSHLIKE | WS_TABSTOP,137,14,12,14
+    CONTROL         "6",IDCC_KEY6,"Button",BS_AUTOCHECKBOX | BS_ICON | 
+                    BS_PUSHLIKE | WS_TABSTOP,149,14,12,14
+    CONTROL         "7",IDCC_KEY7,"Button",BS_AUTOCHECKBOX | BS_ICON | 
+                    BS_PUSHLIKE | WS_TABSTOP,161,14,12,14
+    CONTROL         "8",IDCC_KEY8,"Button",BS_AUTOCHECKBOX | BS_ICON | 
+                    BS_PUSHLIKE | WS_TABSTOP,173,14,12,14
+    CONTROL         "9",IDCC_KEY9,"Button",BS_AUTOCHECKBOX | BS_ICON | 
+                    BS_PUSHLIKE | WS_TABSTOP,185,14,12,14
+    CONTROL         "0",IDCC_KEY0,"Button",BS_AUTOCHECKBOX | BS_ICON | 
+                    BS_PUSHLIKE | WS_TABSTOP,197,14,12,14
+    CONTROL         "*",IDCC_KEYASTER,"Button",BS_AUTOCHECKBOX | BS_ICON | 
+                    BS_PUSHLIKE | WS_TABSTOP,211,14,12,14
+    CONTROL         "#",IDCC_KEYPOUND,"Button",BS_AUTOCHECKBOX | BS_ICON | 
+                    BS_PUSHLIKE | WS_TABSTOP,223,14,12,14
+    CONTROL         "←",IDCC_KEYLEFT,"Button",BS_AUTOCHECKBOX | BS_ICON | 
+                    BS_PUSHLIKE | WS_TABSTOP,238,14,12,14
+    CONTROL         "↑",IDCC_KEYUP,"Button",BS_AUTOCHECKBOX | BS_ICON | 
+                    BS_PUSHLIKE | WS_TABSTOP,250,14,12,14
+    CONTROL         "→",IDCC_KEYRIGHT,"Button",BS_AUTOCHECKBOX | BS_ICON | 
+                    BS_PUSHLIKE | WS_TABSTOP,262,14,12,14
+    CONTROL         "↓",IDCC_KEYDOWN,"Button",BS_AUTOCHECKBOX | BS_ICON | 
+                    BS_PUSHLIKE | WS_TABSTOP,274,14,12,14
+    CONTROL         "○",IDCC_KEYSELECT,"Button",BS_AUTOCHECKBOX | BS_ICON | 
+                    BS_PUSHLIKE | WS_TABSTOP,288,14,12,14
+    CONTROL         "左",IDCC_KEYSOFT1,"Button",BS_AUTOCHECKBOX | BS_ICON | 
+                    BS_PUSHLIKE | WS_TABSTOP,302,14,12,14
+    CONTROL         "右",IDCC_KEYSOFT2,"Button",BS_AUTOCHECKBOX | BS_ICON | 
+                    BS_PUSHLIKE | WS_TABSTOP,314,14,12,14
+    CONTROL         "",-1,"Static",SS_ETCHEDHORZ,89,68,263,1
+    LTEXT           "アクション一覧(&S)",-1,89,73,64,8
+    LTEXT           "",IDCS_ACTIONLIST,89,85,264,164,NOT WS_VISIBLE | 
+                    WS_BORDER | NOT WS_GROUP
+    DEFPUSHBUTTON   "OK",IDOK,301,254,50,14
+    PUSHBUTTON      "キャンセル",IDCANCEL,247,254,50,14
+    CONTROL         "",IDCC_ACTIVE,"ComboBoxEx32",CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP,5,143,74,129
+    CONTROL         "",IDCC_NORMAL,"ComboBoxEx32",CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP,4,18,74,130
+    CONTROL         "メールイベント(&M)",IDCC_MAIL_EVENT,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,92,34,67,10
+    CONTROL         "スケジュールイベント(&C)",IDCC_SCHEDULE_EVENT,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,218,34,86,10
+    CONTROL         "電話イベント(&E)",IDCC_TEL_EVENT,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,92,52,61,10
+    PUSHBUTTON      "設定...",IDCB_MAIL_EVENT,180,32,33,14
+    PUSHBUTTON      "設定...",IDCB_SCHEDULE_EVENT,306,32,33,14
+    PUSHBUTTON      "設定...",IDCB_TEL_EVENT,180,50,33,14
+END
+
+IDD_BTN_CHAR_MAIL_EVENT DIALOG DISCARDABLE  0, 0, 187, 93
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "メールイベント設定"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,130,71,50,14
+    PUSHBUTTON      "キャンセル",IDCANCEL,74,71,50,14
+    CONTROL         "スタンダードメール",IDCC_MAIL_EVENT_STANDARD,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,7,70,10
+    CONTROL         "グリーティングメール",IDCC_MAIL_EVENT_GREETING,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,22,76,10
+    CONTROL         "リレーメール",IDCC_MAIL_EVENT_RELAY,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,37,53,10
+    CONTROL         "オートメール",IDCC_MAIL_EVENT_AUTO,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,52,53,10
+    CONTROL         "エマージェンシーメール",IDCC_MAIL_EVENT_EMERGENCY,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,84,7,85,10
+    CONTROL         "スーパーメール",IDCC_MAIL_EVENT_SUPER,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,84,22,62,10
+    CONTROL         "スカイメール",IDCC_MAIL_EVENT_SKY,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,84,37,53,10
+END
+
+IDD_BTN_CHAR_SCHEDULE_EVENT DIALOG DISCARDABLE  0, 0, 231, 87
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "スケジュールイベント設定"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,174,66,50,14
+    PUSHBUTTON      "キャンセル",IDCANCEL,121,66,50,14
+    EDITTEXT        IDCE_CRITERIA,12,34,207,12,ES_AUTOHSCROLL
+    LTEXT           "(カンマ区切りで複数の条件を設定できます)",IDC_STATIC,13,
+                    49,193,8
+    CONTROL         "全て受信する(&R):",IDCC_RECEIVE_ALL,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,7,62,10
+    GROUPBOX        "下記の名前のスケジュールのみを受信する",IDC_STATIC,7,22,
+                    217,41
+END
+
+IDD_BTN_CHAR_TEL_EVENT DIALOG DISCARDABLE  0, 0, 231, 87
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "電話イベント設定"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,174,66,50,14
+    PUSHBUTTON      "キャンセル",IDCANCEL,121,66,50,14
+    EDITTEXT        IDCE_CRITERIA,12,34,207,12,ES_AUTOHSCROLL
+    LTEXT           "(カンマ区切りで複数の条件を設定できます)",IDC_STATIC,13,
+                    49,193,8
+    CONTROL         "全て受信する(&R):",IDCC_RECEIVE_ALL,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,7,62,10
+    GROUPBOX        "下記の名前の電話のみ受信する",IDC_STATIC,7,22,217,41
+END
+
+IDD_CHARLIST DIALOG DISCARDABLE  0, 0, 107, 177
+STYLE DS_3DLOOK | DS_CONTROL | WS_CHILD | WS_VISIBLE
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    CONTROL         "",IDCS_CHAR_PREVIEW,"Static",SS_GRAYRECT | WS_BORDER,0,
+                    0,102,63
+    CONTROL         "List1",IDCL_LIST,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_NOLABELWRAP | 
+                    LVS_OWNERDATA | WS_BORDER | WS_TABSTOP,1,77,102,42
+    CONTROL         "",IDCS_SPLITTER,"Static",SS_GRAYRECT | SS_NOTIFY,0,66,
+                    102,3
+    CONTROL         "List1",IDCL_PREVIEW,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_NOLABELWRAP | 
+                    LVS_OWNERDRAWFIXED | LVS_OWNERDATA | LVS_NOCOLUMNHEADER | 
+                    WS_BORDER | WS_TABSTOP,0,127,102,42
+END
+
+IDD_GRID_EDIT DIALOG DISCARDABLE  0, 0, 187, 125
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "グリッド編集"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,132,100,50,14
+    PUSHBUTTON      "キャンセル",IDCANCEL,79,100,50,14
+    CONTROL         "グリッド表示",IDCC_DISPLAY_GRID,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,13,10,51,10
+    LTEXT           "グリッド感覚(&U)",IDC_STATIC,32,31,46,8
+    EDITTEXT        IDCE_GRID_INTERVAL,81,28,40,14,ES_RIGHT | ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDCS_GRID_INTERVAL,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS,124,28,9,14
+    CONTROL         "センターグリッド表示",IDCC_DISPLAY_CENTER_GRID,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,13,54,75,10
+    CONTROL         "ピクセルグリッド表示",IDCC_DISPLAY_PIXEL_GRID,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,13,75,75,10
+    CONTROL         "",IDCB_GRID_COLOR,"Button",BS_OWNERDRAW | WS_TABSTOP,
+                    103,8,50,14
+    CONTROL         "",IDCB_CENTER_GRID_COLOR,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,103,52,50,14
+    CONTROL         "",IDCB_PIXEL_GRID_COLOR,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,103,73,50,14
+END
+
+IDD_BUILDOUTPUT DIALOG DISCARDABLE  0, 0, 297, 126
+STYLE WS_CHILD
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    CONTROL         "List1",IDCL_OUTPUT,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | WS_BORDER | WS_TABSTOP,0,0,297,126
+END
+
+IDD_STAGES DIALOG DISCARDABLE  0, 0, 134, 152
+STYLE WS_CHILD
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    CONTROL         "List1",IDCL_STAGES,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | WS_BORDER | WS_TABSTOP,0,0,134,133
+END
+
+IDD_REN_SUBSTAGE DIALOG DISCARDABLE  0, 0, 159, 39
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "サブステージ名変更"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    EDITTEXT        IDCE_NAME,2,3,155,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,106,20,50,14
+    PUSHBUTTON      "キャンセル",IDCANCEL,53,20,50,14
+END
+
+IDD_EDIT_COLORING DIALOG DISCARDABLE  0, 0, 183, 187
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "色アニメーションを編集"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    LTEXT           "タイプ(&T):",IDC_STATIC,5,8,59,8
+    COMBOBOX        IDCC_SELTYPE,68,5,109,75,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    CONTROL         "",IDCS_CHILD,"Static",SS_BLACKFRAME | NOT WS_VISIBLE,5,
+                    24,172,85
+    LTEXT           "プレビュー(&P):",IDC_STATIC,7,115,34,8
+    DEFPUSHBUTTON   "OK",IDOK,127,163,50,14
+    PUSHBUTTON      "Default(&I)",IDCB_DEFAULT,87,141,40,14
+    CONTROL         "",IDCS_PREVIEW,"Static",SS_GRAYRECT | WS_BORDER,6,127,
+                    45,50
+    PUSHBUTTON      "リセット(&R)",1140,137,141,40,14
+    PUSHBUTTON      "キャンセル",IDCANCEL,70,163,50,14
+END
+
+IDD_EDIT_COLORING_CUSTOM DIALOG DISCARDABLE  0, 0, 171, 88
+STYLE DS_3DLOOK | DS_CONTROL | WS_CHILD | WS_CLIPSIBLINGS | WS_BORDER
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    LTEXT           "赤(&R):",IDC_STATIC,3,10,27,8
+    EDITTEXT        IDCE_REDMULT,40,7,42,14,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    CONTROL         "Spin2",IDCS_REDMULT,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | 
+                    UDS_NOTHOUSANDS | UDS_HOTTRACK,95,8,9,14
+    LTEXT           "%",IDC_STATIC,89,10,8,8
+    LTEXT           "+",IDC_STATIC,107,10,8,8
+    EDITTEXT        IDCE_REDADD,116,7,42,14,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    CONTROL         "Spin2",IDCS_REDADD,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | 
+                    UDS_NOTHOUSANDS | UDS_HOTTRACK,157,7,9,14
+    LTEXT           "緑(&G):",IDC_STATIC,3,30,37,8
+    EDITTEXT        IDCE_GREENMULT,40,26,42,14,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    CONTROL         "Spin2",IDCS_GREENMULT,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | 
+                    UDS_NOTHOUSANDS | UDS_HOTTRACK,96,27,9,14
+    LTEXT           "%",IDC_STATIC,89,30,8,8
+    LTEXT           "+",IDC_STATIC,107,30,8,8
+    EDITTEXT        IDCE_GREENADD,116,26,42,14,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    CONTROL         "Spin2",IDCS_GREENADD,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | 
+                    UDS_NOTHOUSANDS | UDS_HOTTRACK,158,27,9,14
+    LTEXT           "青(&B):",IDC_STATIC,3,50,29,8
+    EDITTEXT        IDCE_BLUEMULT,40,46,42,14,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    CONTROL         "Spin2",IDCS_BLUEMULT,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | 
+                    UDS_NOTHOUSANDS | UDS_HOTTRACK,95,46,9,14
+    LTEXT           "%",IDC_STATIC,89,50,8,8
+    LTEXT           "+",IDC_STATIC,107,50,8,8
+    EDITTEXT        IDCE_BLUEADD,116,46,42,14,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    CONTROL         "Spin2",IDCS_BLUEADD,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | 
+                    UDS_NOTHOUSANDS | UDS_HOTTRACK,157,45,9,14
+END
+
+IDD_EDIT_COLORING_MEIDO DIALOG DISCARDABLE  0, 0, 172, 86
+STYLE DS_3DLOOK | DS_CONTROL | WS_CHILD | WS_CLIPSIBLINGS | WS_BORDER
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    LTEXT           "明度(&M):",IDC_STATIC,3,9,52,8
+    EDITTEXT        IDCE_MEIDO,59,6,34,14,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER
+    CONTROL         "Slider1",IDCS_MEIDO,"msctls_trackbar32",TBS_AUTOTICKS | 
+                    TBS_BOTH | WS_TABSTOP,3,24,166,27
+    LTEXT           "%",IDC_STATIC,96,9,8,8
+END
+
+IDD_EDIT_COLORING_SELECT DIALOG DISCARDABLE  0, 0, 172, 86
+STYLE DS_3DLOOK | DS_CONTROL | WS_CHILD | WS_CLIPSIBLINGS | WS_BORDER
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    LTEXT           "色(&C):",IDC_STATIC,5,9,32,8
+    CONTROL         "",IDCC_SELCLR,"Static",SS_GRAYRECT | NOT WS_VISIBLE | 
+                    WS_TABSTOP,49,5,42,15
+    LTEXT           "適用(&A):",IDC_STATIC,5,33,32,8
+    CONTROL         "Slider1",IDCS_APPLY,"msctls_trackbar32",TBS_AUTOTICKS | 
+                    TBS_BOTH | WS_TABSTOP,49,29,115,26
+    LTEXT           "0%",IDC_STATIC,49,62,33,8
+    LTEXT           "100%",IDC_STATIC,138,62,20,8
+END
+
+IDD_COLOR_PALETTE DIALOG DISCARDABLE  0, 0, 107, 131
+STYLE DS_MODALFRAME | DS_SETFOREGROUND | WS_POPUP | WS_CLIPCHILDREN
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    CONTROL         "",IDCS_CLRBOX,"Static",SS_WHITERECT,1,2,16,12
+    EDITTEXT        IDCE_CLRVAL,19,2,36,12,ES_AUTOHSCROLL | ES_WANTRETURN
+    CONTROL         "",IDCB_CLR_NULL,"Button",BS_OWNERDRAW | WS_TABSTOP,56,3,
+                    9,12
+    CONTROL         "",IDCB_CLR_SPOIT,"Button",BS_OWNERDRAW | WS_TABSTOP,67,
+                    3,9,12
+    CONTROL         "",IDCB_CLR_DLG,"Button",BS_OWNERDRAW | WS_TABSTOP,78,3,
+                    9,12
+    CONTROL         "",IDCB_CLR_CLOSE,"Button",BS_OWNERDRAW | WS_TABSTOP,89,
+                    3,9,12
+    CONTROL         "",IDCS_PALETTE,"Static",SS_WHITERECT | SS_NOTIFY,1,31,
+                    102,97
+    COMBOBOX        IDCC_ACT,1,16,102,110,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+END
+
+IDD_EDIT_PLACING DIALOG DISCARDABLE  0, 0, 187, 179
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "キャラクタ配置編集"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    GROUPBOX        "位置(&M):",IDC_STATIC,8,9,170,40
+    LTEXT           "X(&X):",IDC_STATIC,19,29,15,8
+    EDITTEXT        IDCE_TRANSLATEX,37,26,45,14,ES_RIGHT | ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDCS_TRANSLATEX,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS | UDS_NOTHOUSANDS | UDS_HOTTRACK,82,26,9,
+                    14
+    LTEXT           "Y(&Y):",IDC_STATIC,100,29,15,8
+    EDITTEXT        IDCE_TRANSLATEY,119,26,45,14,ES_RIGHT | ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDCS_TRANSLATEY,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS | UDS_NOTHOUSANDS | UDS_HOTTRACK,167,26,9,
+                    14
+    GROUPBOX        "Size(&S)",IDCS_SIZING1,8,58,170,40,NOT WS_VISIBLE
+    LTEXT           "W(&W):",IDCS_SIZING2,19,78,17,8,NOT WS_VISIBLE
+    EDITTEXT        IDCE_SCALEX,37,74,45,14,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_NUMBER | NOT WS_VISIBLE
+    CONTROL         "Spin1",IDCS_SCALEX,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | 
+                    UDS_NOTHOUSANDS | UDS_HOTTRACK | NOT WS_VISIBLE,82,62,9,
+                    14
+    LTEXT           "H(&H):",IDCS_SIZING4,100,78,16,8,NOT WS_VISIBLE
+    EDITTEXT        IDCE_SCALEY,119,74,45,14,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_NUMBER | NOT WS_VISIBLE
+    CONTROL         "Spin1",IDCS_SCALEY,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | 
+                    UDS_NOTHOUSANDS | UDS_HOTTRACK | NOT WS_VISIBLE,167,62,9,
+                    14
+    GROUPBOX        "Rotate(&R):",IDCS_SIZING6,8,107,170,40,NOT WS_VISIBLE
+    LTEXT           "Offset(&O):",IDCS_SIZING7,13,125,30,8,NOT WS_VISIBLE
+    EDITTEXT        IDCE_ROTATEOFFSET,53,122,45,14,ES_RIGHT | ES_AUTOHSCROLL | 
+                    NOT WS_VISIBLE
+    CONTROL         "Spin1",IDCS_ROTATEOFFSET,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS | UDS_NOTHOUSANDS | UDS_HOTTRACK | NOT 
+                    WS_VISIBLE,99,121,9,14
+    DEFPUSHBUTTON   "OK",IDOK,128,156,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,74,156,50,14
+    LTEXT           "( -360ｰ~360ｰ)",IDCS_SIZING8,111,125,52,8,NOT WS_VISIBLE
+    LTEXT           "%",IDCS_SIZING3,85,78,8,8,NOT WS_VISIBLE
+    LTEXT           "%",IDCS_SIZING5,167,78,8,8,NOT WS_VISIBLE
+END
+
+IDD_TEXT_CHAR DIALOG DISCARDABLE  0, 0, 295, 167
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "テキストキャラクタ編集"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    LTEXT           "テキスト(&T)",IDC_STATIC,93,51,34,8
+    EDITTEXT        IDCE_TEXT,93,63,199,78,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_AUTOHSCROLL | ES_WANTRETURN | WS_VSCROLL | WS_HSCROLL
+    PUSHBUTTON      "キャンセル",IDCANCEL,189,148,50,14
+    DEFPUSHBUTTON   "OK",IDOK,242,148,50,14
+    LTEXT           "テキスト色(&C):",IDC_STATIC,94,150,42,8
+    CONTROL         "",IDC_COLORBOX,"Static",SS_GRAYRECT | NOT WS_VISIBLE | 
+                    WS_TABSTOP,138,146,41,16
+    LTEXT           "フェース(&F):",IDC_STATIC,4,7,35,8
+    COMBOBOX        IDCC_FONTFACE,44,5,66,83,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "サイズ(&S):",IDC_STATIC,117,7,30,8
+    COMBOBOX        IDCC_FONTSIZE,149,5,66,96,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    CONTROL         "B",IDCC_BOLD,"Button",BS_AUTOCHECKBOX | BS_ICON | 
+                    BS_PUSHLIKE | WS_TABSTOP,223,3,14,16
+    CONTROL         "I",IDCC_ITALIC,"Button",BS_AUTOCHECKBOX | BS_ICON | 
+                    BS_PUSHLIKE | WS_TABSTOP,239,3,14,16
+    CONTROL         "U",IDCC_UNDERLINE,"Button",BS_AUTOCHECKBOX | BS_ICON | 
+                    BS_PUSHLIKE | WS_TABSTOP,255,3,14,16
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ | WS_GROUP,3,22,291,
+                    1
+    CONTROL         "自動リサイズ(&A)",IDCC_AUTORESIZE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,4,30,61,10
+    LTEXT           "幅(&W):",IDC_STATIC,81,31,28,8
+    EDITTEXT        IDCE_W,113,28,33,14,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    CONTROL         "Spin1",IDCS_W,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | 
+                    UDS_NOTHOUSANDS | UDS_HOTTRACK,153,28,9,14
+    LTEXT           "高(&H):",IDC_STATIC,166,31,18,8
+    EDITTEXT        IDCE_H,200,28,33,14,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    CONTROL         "Spin1",IDCS_H,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | 
+                    UDS_NOTHOUSANDS | UDS_HOTTRACK,235,28,9,14
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,3,46,291,1
+    LTEXT           "プレビュー(&P)",IDC_STATIC,6,51,40,8
+    CONTROL         "",IDCS_PREVIEW,"Static",SS_GRAYRECT | WS_BORDER,5,63,85,
+                    95
+END
+
+IDD_SND_CHAR DIALOG DISCARDABLE  0, 0, 191, 131
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "サウンドキャラクタ プレビュー再生"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    PUSHBUTTON      "再生",IDCB_PLAY,32,42,50,14
+    PUSHBUTTON      "一時停止",IDCB_PAUSE,84,42,50,14
+    PUSHBUTTON      "停止",IDCB_STOP,136,42,50,14
+    CONTROL         "Slider2",IDCS_VOLUME,"msctls_trackbar32",TBS_NOTICKS | 
+                    WS_TABSTOP,32,80,57,15
+    CONTROL         "Slider2",IDCS_PANPOT,"msctls_trackbar32",TBS_NOTICKS | 
+                    WS_TABSTOP,101,80,68,15
+    PUSHBUTTON      "リロード(&L) ...",IDCB_RELOAD,8,109,50,14
+    PUSHBUTTON      "OK",IDOK,135,109,50,14
+    PUSHBUTTON      "キャンセル",IDCANCEL,82,110,50,14
+    CONTROL         "繰り返し再生する(&R)",IDCC_REPEAT,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,111,61,75,10
+    LTEXT           "L",IDC_STATIC,96,83,8,8
+    LTEXT           "R",IDC_STATIC,173,83,8,8
+    LTEXT           "音量(&V):",IDC_STATIC,6,84,25,8
+    CONTROL         "",IDCS_POSITION,"Static",SS_GRAYRECT,4,21,182,16
+    LTEXT           "再生位置(&P)",IDC_STATIC,5,7,37,8
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,5,75,180,1
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,5,101,180,1
+END
+
+IDD_APPLICONF_CANVAS DIALOG DISCARDABLE  0, 0, 235, 156
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "画面サイズ"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    LTEXT           "画面サイズ(S):",IDC_STATIC,36,65,44,8
+    EDITTEXT        IDCE_W,84,61,29,14,ES_RIGHT | ES_AUTOHSCROLL
+    LTEXT           "×",IDC_STATIC,117,65,8,8
+    EDITTEXT        IDCE_H,128,61,29,14,ES_RIGHT | ES_AUTOHSCROLL
+END
+
+IDD_APPLICONF_MACHIUKE DIALOG DISCARDABLE  0, 0, 235, 156
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "待受"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    COMBOBOX        IDCC_CLOCK,63,16,136,71,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "時計タイプ(&C):",IDC_STATIC,10,18,47,8
+END
+
+IDD_APPLICONF_TYPE DIALOG DISCARDABLE  0, 0, 235, 156
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "アプリ種別"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    LTEXT           "アプリ種別(&T):",IDC_STATIC,20,74,49,8
+    COMBOBOX        IDCC_APPLI_TYPE,73,72,102,79,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_APPLICONF_PLAY DIALOG DISCARDABLE  0, 0, 235, 156
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "再生"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    LTEXT           "フレームレート(&R):",IDC_STATIC,51,35,54,8
+    EDITTEXT        IDCE_FPS,109,32,35,14,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    CONTROL         "Spin1",IDCS_FPS,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | 
+                    UDS_HOTTRACK,161,32,9,14
+    LTEXT           "FPS",IDC_STATIC,145,36,13,8
+    CONTROL         "ループ再生(&L)",IDCC_LOOP,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,51,56,53,10
+    LTEXT           "背景色(&H):",IDC_STATIC,35,79,54,8
+    CONTROL         "",IDCC_BKGND,"Static",SS_GRAYRECT | NOT WS_VISIBLE | 
+                    WS_TABSTOP,94,75,41,16
+    LTEXT           "枠色(&F):",IDC_STATIC,35,102,48,8
+    CONTROL         "",IDCC_BKFRAME,"Static",SS_GRAYRECT | NOT WS_VISIBLE | 
+                    WS_TABSTOP,94,98,41,16
+END
+
+IDD_APPLICONF_WIZDONE DIALOG DISCARDABLE  0, 0, 235, 156
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "設定完了"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    LTEXT           "スパイシードッグアプリの設定完了しました",IDC_STATIC,59,
+                    70,124,8
+END
+
+IDD_APPLICONF_WIZHOME DIALOG DISCARDABLE  0, 0, 235, 156
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "ウイザード"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    LTEXT           "スパイシードッグアプリ新規作成ウイザード",IDCS_TITLE,8,
+                    15,124,8
+    LTEXT           "スパイシードッグアプリの基本セットアップを行います。",
+                    IDC_STATIC,9,55,218,19
+    LTEXT           "次へボタンを押してください",IDC_STATIC,9,91,78,8
+END
+
+IDD_APPLICONF_TITLE DIALOGEX 0, 0, 235, 156
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "タイトル"
+FONT 9, "ＭＳ Ｐゴシック", 0, 0, 0x1
+BEGIN
+    LTEXT           "タイトル(&T)",IDC_STATIC,5,9,32,8
+    EDITTEXT        IDCE_APP_TITLE,47,6,183,14,ES_AUTOHSCROLL
+    LTEXT           "UTF8エンコードして16バイト以内",IDC_STATIC,47,24,95,8
+    LTEXT           "アイコン(&T)",IDC_STATIC,5,42,33,8
+    CONTROL         "",IDCS_ICON,"Static",SS_BLACKRECT,47,39,22,28,
+                    WS_EX_STATICEDGE
+    PUSHBUTTON      "読込 ...",IDCB_LOAD_ICON,73,39,50,14
+    PUSHBUTTON      "クリア",IDCB_CLEAR_ICON,127,39,50,14
+    LTEXT           "PNG 24 x 24ピクセル 8ビット",IDC_STATIC,74,56,84,8
+    LTEXT           "ベンダー(&V)",IDC_STATIC,5,74,35,8
+    EDITTEXT        IDCE_APP_VENDOR,47,71,183,14,ES_AUTOHSCROLL
+    LTEXT           "UTF8エンコードして16バイト以内",IDC_STATIC,47,89,95,8
+    LTEXT           "コメント(&C)",IDC_STATIC,5,102,38,8
+    EDITTEXT        IDCE_APP_COMMENT,47,102,182,36,ES_MULTILINE | 
+                    ES_AUTOVSCROLL
+    LTEXT           "UTF8エンコードして64バイト以内",IDC_STATIC,47,141,95,8
+END
+
+IDD_IMPORT_PICT DIALOG DISCARDABLE  0, 0, 138, 10
+STYLE DS_3DLOOK | DS_CONTROL | WS_CHILD | WS_CLIPSIBLINGS
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    CONTROL         "パススルー書出画像として読み込む(&P)",IDCC_PATHTHROUGH,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,0,0,137,10
+END
+
+IDD_NEW_EMPTY_PICT DIALOG DISCARDABLE  0, 0, 167, 79
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "新規の空のピクチャキャラクタ"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    LTEXT           "幅(&W):",IDC_STATIC,36,16,30,8
+    EDITTEXT        IDCE_W,75,13,45,14,ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "Spin1",IDCS_W,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | 
+                    UDS_NOTHOUSANDS | UDS_HOTTRACK,120,13,9,14
+    LTEXT           "高(&H):",IDC_STATIC,36,36,30,8
+    EDITTEXT        IDCE_H,74,33,45,14,ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "Spin1",IDCS_H,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | 
+                    UDS_NOTHOUSANDS | UDS_HOTTRACK,119,33,9,14
+    DEFPUSHBUTTON   "OK",IDOK,109,57,50,14
+    PUSHBUTTON      "キャンセル",IDCANCEL,55,57,50,14
+END
+
+IDD_PICT_EFFECT DIALOG DISCARDABLE  0, 0, 234, 163
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "ピクチャエフェクト"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    LTEXT           "プレビュー(&V)",IDC_STATIC,7,33,40,8
+    CONTROL         "",IDCS_PREVIEW,"Static",SS_GRAYRECT | WS_BORDER,7,47,97,
+                    106
+    LTEXT           "-",IDCS_EFFECT_NAME,53,9,177,8
+    LTEXT           "パラメータ名(&P):",IDCS_PARAMNAME,117,33,101,8
+    EDITTEXT        IDCE_PARAM,120,77,40,14,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY
+    LTEXT           "(単位)",IDCS_UNIT,166,81,58,8
+    CONTROL         "Slider1",IDCS_PARAM,"msctls_trackbar32",TBS_AUTOTICKS | 
+                    WS_TABSTOP,115,51,106,21
+    DEFPUSHBUTTON   "OK",IDOK,178,139,50,14
+    PUSHBUTTON      "キャンセル",IDCANCEL,124,139,50,14
+    LTEXT           "エフェクト名(&E):",IDC_STATIC,4,9,45,8
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,4,23,224,1
+END
+
+IDD_PREF_EMU DIALOG DISCARDABLE  0, 0, 250, 179
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "エミュレータ"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    EDITTEXT        IDCE_EMUPATH,14,28,225,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "自動検知(&D)",IDCB_DETECT,137,45,50,14,NOT WS_VISIBLE
+    LTEXT           "JSky Application Emurator Liblary Path(&P):",IDC_STATIC,
+                    14,17,126,8
+    PUSHBUTTON      "参照...(&B)",IDCB_BROWSE,190,45,50,14
+    LTEXT           "例: <JSky Application Emurator インストール ディレクトリ>/bin/jbmidp.jar",
+                    IDC_STATIC,14,69,206,8
+END
+
+IDD_PREF_ETC DIALOG DISCARDABLE  0, 0, 235, 156
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "その他"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    LTEXT           "履歴サイズ(&H):",IDC_STATIC,13,29,80,8
+    EDITTEXT        IDCE_MAX_HISTORY,98,26,40,14,ES_RIGHT | ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDCS_MAX_HISTORY,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS,143,27,9,14
+END
+
+IDD_PREF_UPLOAD DIALOG DISCARDABLE  0, 0, 235, 205
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "アップロード"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    GROUPBOX        "転送メール設定",IDC_STATIC,2,19,231,183
+    CONTROL         "ダウンロードURLを携帯電話にメールで転送する(&U)",
+                    IDCC_UPLOAD,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,3,3,
+                    164,10
+    LTEXT           "転送先Jフォン携帯電話のメールアドレス(カンマ区切りで複数指定可)(&T):",
+                    IDC_STATIC,5,32,210,8
+    EDITTEXT        IDCE_TO,5,44,224,14,ES_AUTOHSCROLL
+    LTEXT           "自分の使っているプロバイダのメールアドレス(送信元)(&F):",
+                    IDC_STATIC,5,62,167,8
+    EDITTEXT        IDCE_FROM,5,74,224,14,ES_AUTOHSCROLL
+    LTEXT           "自分の使っているプロバイダのSMTP サーバ(&H):",
+                    IDC_STATIC,6,93,140,8
+    EDITTEXT        IDCE_SMTP_SERVER,6,105,222,14,ES_AUTOHSCROLL
+    LTEXT           "メールの件名(&S):",IDC_STATIC,5,121,50,8
+    EDITTEXT        IDCE_SUBJECT,5,133,224,14,ES_AUTOHSCROLL
+    LTEXT           "メールの本文(&B):",IDC_STATIC,5,152,51,8
+    EDITTEXT        IDCE_BODY,5,164,224,34,ES_MULTILINE | ES_AUTOHSCROLL | 
+                    ES_WANTRETURN
+END
+
+IDD_KEY_FRAME_LABEL DIALOG DISCARDABLE  0, 0, 187, 159
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "キーフレームラベル"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    LTEXT           "ラベル名(&L)",IDC_STATIC,5,5,43,8
+    EDITTEXT        IDCE_NAME,3,20,183,14,ES_AUTOHSCROLL
+    LTEXT           "1) アルファベットとアンダーバーのみ",IDC_STATIC,12,37,
+                    95,8
+    LTEXT           "2) 1文字から32文字まで",IDC_STATIC,12,48,104,8
+    LTEXT           "3) アプリの中でユニークであること",IDC_STATIC,12,59,115,
+                    8
+    LTEXT           "コメント(&C)",IDC_STATIC,5,73,55,8
+    EDITTEXT        IDCE_COMMENT,3,85,183,51,ES_MULTILINE | ES_AUTOHSCROLL | 
+                    ES_WANTRETURN | WS_VSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,131,140,50,14
+    PUSHBUTTON      "キャンセル",IDCANCEL,77,140,50,14
+END
+
+IDD_EDIT_ANIMATING DIALOG DISCARDABLE  0, 0, 211, 121
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "アニメーション設定"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    CONTROL         "キーフレーム間をアニメーションする(&T)",IDCC_TWEEN,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,11,7,132,10
+    GROUPBOX        "アニメーション",IDC_STATIC,5,23,199,70
+    DEFPUSHBUTTON   "OK",IDOK,153,98,50,14
+    PUSHBUTTON      "キャンセル",IDCANCEL,99,98,50,14
+    CONTROL         "Slider1",IDCS_ACCENT,"msctls_trackbar32",TBS_AUTOTICKS | 
+                    WS_TABSTOP,54,53,141,18
+    LTEXT           "イージング(&E):",IDCS_ACCENT1,15,40,30,8
+    LTEXT           "100%(減速)",IDCS_ACCENT4,162,76,36,8
+    LTEXT           "-100%(加速)",IDCS_ACCENT2,54,76,39,8
+    LTEXT           "0%",IDCS_ACCENT3,121,76,8,8
+    EDITTEXT        IDCE_ACCENT,14,55,29,14,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY
+    LTEXT           "%",IDCS_ACCENT5,46,57,8,8
+END
+
+IDD_REN_LAYER DIALOG DISCARDABLE  0, 0, 183, 47
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "レイヤー名変更"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,127,28,50,14
+    PUSHBUTTON      "キャンセル",IDCANCEL,71,28,50,14
+    EDITTEXT        IDCE_NAME,52,8,126,14,ES_AUTOHSCROLL
+    LTEXT           "レイヤー名(&N):",IDC_STATIC,5,12,44,8
+END
+
+IDD_KEY_FRAME_ACTION DIALOG DISCARDABLE  0, 0, 285, 193
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "キーフレームアクション"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,230,176,50,14
+    PUSHBUTTON      "キャンセル",IDCANCEL,177,176,50,14
+    CONTROL         "",IDCS_ACTIONLIST,"Static",SS_BLACKFRAME,2,3,279,168
+END
+
+IDD_REN_CHAR DIALOG DISCARDABLE  0, 0, 178, 73
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "キャラクタ名変更"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    LTEXT           "キャラクタ名(&N):",IDC_STATIC,9,24,47,8
+    EDITTEXT        IDCE_CHAR_NAME,63,21,103,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,116,45,50,14
+    PUSHBUTTON      "キャンセル",IDCANCEL,61,45,50,14
+END
+
+IDD_EDIT_PICT_QUANTIZE DIALOG DISCARDABLE  0, 0, 263, 227
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION
+CAPTION "ピクチャ書出設定"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    CONTROL         "パススルー(&P)",IDCR_BUILDTYPE,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,137,24,102,10
+    CONTROL         "PNG形式(&G):",IDCR_BUILDTYPE2,"Button",
+                    BS_AUTORADIOBUTTON,137,48,62,10
+    CONTROL         "JPEG形式(&J):",IDCR_BUILDTYPE3,"Button",
+                    BS_AUTORADIOBUTTON,137,138,65,10
+    COMBOBOX        IDCC_PNG_ACTTYPE,146,62,99,101,CBS_DROPDOWNLIST | 
+                    CBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_GROUP | 
+                    WS_TABSTOP
+    LTEXT           "色ビット数(&N):",IDCSTATIC_PNG_COLORBITS,147,82,41,8
+    COMBOBOX        IDCC_PNG_COLORBITS,192,78,39,97,CBS_DROPDOWN | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "ディザ(&D)",IDCC_PNG_DITHER,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,147,96,43,10
+    CONTROL         "透明色(&T)",IDCC_PNG_TRANS,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,147,108,64,10
+    CONTROL         "",IDCC_PNG_TRANSCOLOR,"Static",SS_GRAYRECT | NOT 
+                    WS_VISIBLE | WS_TABSTOP,214,104,31,15
+    LTEXT           "JPEG圧縮(C):",IDCSTATIC_JPG_RATIO,147,152,75,8
+    LTEXT           "100",IDCS_JPG_COMPRESS,228,152,13,8
+    CONTROL         "Slider1",IDCS_JPG_COMPRESS_SLIDER,"msctls_trackbar32",
+                    TBS_AUTOTICKS | WS_TABSTOP,146,164,101,15
+    PUSHBUTTON      "OK",IDOK,204,206,50,14
+    PUSHBUTTON      "キャンセル",IDCANCEL,149,206,50,14
+    PUSHBUTTON      "リセット",1140,92,206,50,14
+    LTEXT           "0(低品質)",IDCSTATIC_JPG_PERB,151,182,19,8
+    RTEXT           "100(高品質)",IDCSTATIC_JPG_PERE,208,181,28,8
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,138,44,108,1
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,138,132,108,1
+    LTEXT           "126 colors",IDCS_COUNT_OF_COLORS,3,203,41,8
+    CONTROL         "",IDCS_COLORS,"Static",SS_GRAYRECT | WS_BORDER,3,139,
+                    115,43
+    LTEXT           "出力サイズ:",IDCSTATIC_SIZE,4,107,36,8
+    LTEXT           "出力形式:",IDCSTATIC_FORMAT,4,120,44,8
+    LTEXT           "10240 bytes",IDCS_SIZE,75,107,41,8
+    LTEXT           "GIF",IDCS_FORMAT,75,120,37,8
+    GROUPBOX        "出力形式",IDC_STATIC,128,5,127,194
+    CONTROL         "",IDCS_PREVIEW,"Static",SS_GRAYRECT | WS_BORDER,3,16,
+                    114,87
+    LTEXT           "プレビュー(&P):",IDC_STATIC,4,4,34,8
+END
+
+IDD_EMU_PLAY DIALOG DISCARDABLE  0, 0, 291, 207
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "エミュレータ実行"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    DEFPUSHBUTTON   "実行(&R)",IDCB_RUN,239,80,50,14
+    CONTROL         10154,IDC_STATIC,"Static",SS_BITMAP,0,0,292,40
+    LTEXT           "JSky Application Emurator ライブラリパス(&P):",
+                    IDC_STATIC1,3,48,133,8
+    EDITTEXT        IDCE_EMU_PATH,4,61,233,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "参照...(&B)",IDCB_BROWSE,239,61,50,14
+    PUSHBUTTON      "自動検知(&D)",IDCB_DETECT,114,80,50,14,NOT WS_VISIBLE
+    PUSHBUTTON      "実行結果のクリア(&C)",IDCB_CLEAR,166,80,71,14
+    LTEXT           "実行結果(&O)",IDC_STATIC2,5,99,38,8
+    EDITTEXT        IDCE_OUTPUT,3,111,285,93,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_AUTOHSCROLL | ES_READONLY | ES_WANTRETURN | 
+                    WS_VSCROLL
+END
+
+IDD_UPLOAD DIALOG DISCARDABLE  0, 0, 293, 257
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "テストサーバーへのアップロード"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    LTEXT           "転送先Jフォン携帯電話のメールアドレス(カンマ区切りで複数指定可)(&T):",
+                    IDC_STATIC,9,82,210,8
+    EDITTEXT        IDCE_TO,9,94,274,14,ES_AUTOHSCROLL
+    LTEXT           "自分の使っているプロバイダのメールアドレス(送信元)(&F):",
+                    IDC_STATIC,9,113,167,8
+    EDITTEXT        IDCE_FROM,9,125,274,14,ES_AUTOHSCROLL
+    LTEXT           "自分の使っているプロバイダのSMTP サーバ(&H):",
+                    IDC_STATIC,9,143,140,8
+    EDITTEXT        IDCE_SMTP_SERVER,9,155,274,14,ES_AUTOHSCROLL
+    LTEXT           "メールの件名(&S):",IDC_STATIC,9,174,50,8
+    EDITTEXT        IDCE_SUBJECT,9,186,274,14,ES_AUTOHSCROLL
+    LTEXT           "メールの本文(&B):",IDC_STATIC,9,203,51,8
+    EDITTEXT        IDCE_BODY,9,215,274,29,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_AUTOHSCROLL | ES_WANTRETURN | WS_VSCROLL
+    GROUPBOX        "転送メール設定",IDC_STATIC,2,70,288,181
+    PUSHBUTTON      "アップロード(&U)",IDOK,239,44,50,14
+    PUSHBUTTON      "キャンセル",IDCANCEL,186,44,50,14
+    CONTROL         10154,IDC_STATIC,"Static",SS_BITMAP,0,0,292,40
+    CONTROL         "ダウンロードURLを携帯電話にメールで転送する(&U)",
+                    IDCC_UPLOAD,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,3,46,
+                    164,10
+END
+
+IDD_UPLOADED DIALOG DISCARDABLE  0, 0, 291, 189
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "アップロード完了しました"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,238,174,50,14
+    CONTROL         10154,IDC_STATIC,"Static",SS_BITMAP,0,0,292,40
+    LTEXT           "アップロードが完了しました",IDC_STATIC1,37,58,79,8
+    LTEXT           "アップロードデータは3日間保存されます",IDC_STATIC2,34,
+                    124,118,8
+    LTEXT           "サーバーにアプリをアップロードしてから72時間後に、アップロードしたアプリはサーバーから削除されますのでご了承ください。",
+                    IDC_STATIC,34,147,252,18
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,2,110,287,1
+    PUSHBUTTON      "クリップボードにコピー(&C)",IDCB_COPY,207,91,79,14
+    LTEXT           "ダウンロードURL(&U):",IDC_STATIC,37,79,59,8
+    EDITTEXT        IDCE_URL,37,91,168,14,ES_AUTOHSCROLL | ES_READONLY
+    ICON            IDI_UPLOAD_DONE,IDC_STATIC,9,52,18,21
+    ICON            IDI_UPLOAD_WARNING,IDC_STATIC,9,118,18,21
+END
+
+IDD_UPLOADING DIALOG DISCARDABLE  0, 0, 291, 75
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "スパイシードッグアプリをアップロード中"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    CONTROL         10154,-1,"Static",SS_BITMAP,0,0,292,40
+    LTEXT           "アップロードが完了しました",IDCS_PROGRESS,31,52,256,8
+    ICON            IDI_UPLOAD_DONE,-1,4,46,20,20
+END
+
+IDD_SEND_MAIL_ERR DIALOG DISCARDABLE  0, 0, 291, 139
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "メール送信エラー"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    DEFPUSHBUTTON   "確認",IDOK,238,121,50,14
+    CONTROL         10154,IDC_STATIC,"Static",SS_BITMAP,0,0,292,40
+    LTEXT           "メールを送信するときにエラーが発生しました。",
+                    IDC_STATIC,27,49,136,8
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,0,68,291,1
+    EDITTEXT        IDCE_DETAIL,2,85,286,29,ES_MULTILINE | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_WANTRETURN
+    LTEXT           "エラーの詳しい説明(&D):",IDC_STATIC,3,74,69,8
+    LTEXT           "次の画面でダウンロードページのURLが表示されます。\nURLをメールに貼り付けて携帯電話に送信してください。",
+                    IDC_STATIC,3,119,168,19
+    ICON            IDI_UPLOAD_WARNING,IDC_STATIC,3,42,18,21
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_TIMELINEPREVIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 315
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 78
+    END
+
+    IDD_TIMELINE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 309
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 136
+    END
+
+    IDD_BTN_CHAR, DIALOG
+    BEGIN
+        RIGHTMARGIN, 326
+    END
+
+    IDD_TEXT_CHAR, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 163
+    END
+
+    IDD_SND_CHAR, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 109
+    END
+
+    IDD_PREF_UPLOAD, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 191
+    END
+
+    IDD_EMU_PLAY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 284
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 200
+    END
+
+    IDD_UPLOADED, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 284
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 182
+    END
+
+    IDD_UPLOADING, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 284
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 68
+    END
+
+    IDD_SEND_MAIL_ERR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 284
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 132
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_SDBTYPE MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "ファイル(&F)"
+    BEGIN
+        MENUITEM "新規作成(&N)\tCtrl+N",        ID_FILE_NEW
+        MENUITEM "開く(&O)...\tCtrl+O",         ID_FILE_OPEN
+        MENUITEM "閉じる(&C)",                  ID_FILE_CLOSE
+        MENUITEM "上書き保存(&S)\tCtrl+S",      ID_FILE_SAVE
+        MENUITEM "名前を付けて保存(&A)...",     ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "最近使ったファイル",          ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "アプリケーションの終了(&X)",  ID_APP_EXIT
+    END
+    POPUP "編集(&E)"
+    BEGIN
+        MENUITEM "元に戻す(&U)\tCtrl+Z",        ID_EDIT_UNDO
+        MENUITEM "やり直す(&Y)\tCtrl+Y",        ID_EDIT_REDO
+        MENUITEM SEPARATOR
+        MENUITEM "コピー(&C)\tCtrl+C",          ID_EDIT_COPY
+        MENUITEM "カット(&X)\tCtrl+X",          ID_EDIT_CUT
+        MENUITEM "貼り付け(&V)\tCtrl+V",        ID_EDIT_PASTE
+        MENUITEM "削除\tDel",                   ID_EDIT_CLEAR
+        MENUITEM "複製\tCtrl+D",                ID_EDIT_DUP
+    END
+    POPUP "表示(&V)"
+    BEGIN
+        MENUITEM "タイムライン\tAlt+0",         ID_VIEW_TIMELINE
+        MENUITEM "キャラクタ一覧\tAlt+1",       ID_VIEW_CHARLIST
+        MENUITEM "ビルドアウトプット\tAlt+2",   ID_VIEW_BUILDOUTPUT
+        MENUITEM "ステージ一覧\tAlt+3",         ID_VIEW_STAGES
+        MENUITEM "履歴\tAlt+4",                 ID_VIEW_HISTORY
+        MENUITEM "ツールボックス",              ID_VIEW_TOOLBOX
+        MENUITEM SEPARATOR
+        MENUITEM "ステータスバー",              ID_VIEW_STATUS_BAR
+        MENUITEM "フローティング表示\tTAB",     ID_TBR_SWITCH
+        MENUITEM SEPARATOR
+        MENUITEM "カスタマイズ...",             ID_VIEW_TOOLBAR_CUSTOMIZE
+        MENUITEM SEPARATOR
+        MENUITEM "編集中のキャラクタ画面を閉じる(&C)\tShift+F4", 
+                                                ID_CLOSE_CHARVIEW
+        MENUITEM "全てのキャラクタ画面を閉じる(&A)\tShift+Alt+F4", 
+                                                ID_CLOSE_ALL_CHARVIEW
+        MENUITEM SEPARATOR
+        MENUITEM "全て表示",                    ID_STAGEVIEW_NOMASK
+        MENUITEM "キャンバスのみ表示",          ID_STAGEVIEW_MASK
+        MENUITEM SEPARATOR
+        MENUITEM "キャラクターセンターの表示",  ID_SHOW_CENTER
+        MENUITEM SEPARATOR
+        MENUITEM "グリッド表示",                ID_DISPLAY_GRID
+        MENUITEM "センターグリッド表示",        ID_DISPLAY_CENTER_GRID
+        MENUITEM "ピクセルグリッド表示",        ID_DISPLAY_PIXEL_GRID
+        MENUITEM "グリッド編集...",             ID_GRID_EDIT
+        MENUITEM SEPARATOR
+        MENUITEM "環境設定...",                 ID_PREF
+    END
+    POPUP "挿入(&I)"
+    BEGIN
+        POPUP "ピクチャキャラクタ"
+        BEGIN
+            MENUITEM "インポート ...\tCtrl+Alt+1",  ID_INS_PICTCHAR
+            MENUITEM "新規作成 ...\tCtrl+Alt+2",    ID_INS_EMPTYPICTCHAR
+        END
+        MENUITEM "テキストキャラクタ新規作成 ...\tCtrl+Alt+3", 
+                                                ID_INS_TEXTCHAR
+        MENUITEM "ボタンキャラクタ新規作成 ...\tCtrl+Alt+4", ID_INS_BTNCHAR
+        MENUITEM "サウンドキャラクタインポート ...\tCtrl+Alt+5", 
+                                                ID_INS_SNDCHAR
+        MENUITEM SEPARATOR
+        MENUITEM "サブステージの挿入",          ID_SUBSTAGES_INS
+        MENUITEM "レイヤを挿入",                ID_INS_LAYER
+        MENUITEM SEPARATOR
+        MENUITEM "フレームを挿入\tF5",          ID_FRAME_INS
+        MENUITEM "キーフレームを挿入\tF6",      ID_KEYFRAME_INS
+        MENUITEM "空白キーフレームを挿入\tF7",  ID_KEYFRAME_INSEMPTY
+        MENUITEM "ラベル挿入",                  ID_LABEL_INS
+        MENUITEM SEPARATOR
+        MENUITEM "アニメーションを作成\tF8",    ID_TWEEN_CREATE
+    END
+    POPUP "アプリ設定(&A)"
+    BEGIN
+        MENUITEM "アプリの設定(&C)...",         ID_APP_CONF
+        MENUITEM SEPARATOR
+        MENUITEM "ビルド(&B)\tF10",             ID_APP_BUILD
+        MENUITEM "JADファイルを確認(&J)",       ID_APP_VIEW_JAD
+        MENUITEM "エミュレータで実行(&R)...\tShift+F10", ID_APP_RUN
+        MENUITEM SEPARATOR
+        MENUITEM "アプリをローカルに発行(&L)...", ID_APP_PUBLISH_LOCAL
+        MENUITEM "アプリをアップロードし携帯に転送", ID_APP_PUBLISH_UPLOAD
+    END
+    POPUP "制御(&C)"
+    BEGIN
+        MENUITEM "プレビュー再生\tEnter",       ID_PLAY_PLAY
+        MENUITEM "プレビュー停止",              ID_PLAY_STOP
+        MENUITEM SEPARATOR
+        MENUITEM "先頭フレームへ移動",          ID_PLAY_FIRST
+        MENUITEM "最後尾フレームへ移動",        ID_PLAY_LAST
+        MENUITEM "前のフレームへ移動",          ID_PLAY_PREV
+        MENUITEM "次のフレームへ移動",          ID_PLAY_NEXT
+    END
+    POPUP "ピクチャ(&P)"
+    BEGIN
+        MENUITEM "画像編集表示モード",          ID_PICT_EDITVIEW
+        MENUITEM "画像プレビュー表示モード",    ID_PICT_PREVIEW
+        MENUITEM SEPARATOR
+        MENUITEM "画像の書出最適化設定...",     ID_PICT_OPT
+        MENUITEM SEPARATOR
+        MENUITEM "数値指定サイズ...",           ID_PICT_RESIZE
+        MENUITEM "数値指定トリム...",           ID_PICT_TRIM
+        MENUITEM "選択矩形でトリム",            ID_PICT_MOUSE_TRIM
+        MENUITEM "選択矩形の解除",              ID_PICT_RESET_SELRECT
+        MENUITEM SEPARATOR
+        MENUITEM "画像の再ロード...",           ID_PICT_RELOAD
+        MENUITEM "外部ツールで編集...",         ID_PICT_EDIT
+        MENUITEM SEPARATOR
+        POPUP "エフェクト"
+        BEGIN
+            MENUITEM "シャープネス...",             ID_PE_SHARPNESS
+            MENUITEM "モザイク...",                 ID_PE_MOSAIC
+            MENUITEM "平均化...",                   ID_PE_AVERAGE
+            MENUITEM "メディアン効果...",           ID_PE_MEDIAN
+            MENUITEM "ソラライズ...",               ID_PE_SOLARIZE
+            MENUITEM "オイルペイント効果...",       ID_PE_OILPAINT
+            MENUITEM "ポスタライズ...",             ID_PE_POSTERIZE
+        END
+    END
+    POPUP "ウインドウ(&W)"
+    BEGIN
+        MENUITEM "新しいウインドウを開く(&N)",  ID_WINDOW_NEW
+        MENUITEM "重ねて表示(&C)",              ID_WINDOW_CASCADE
+        MENUITEM "左右に並べて表示",            ID_WINDOW_TILE_VERT
+        MENUITEM "上下に並べて表示",            ID_WINDOW_TILE_HORZ
+        MENUITEM "アイコンの整列(&A)",          ID_WINDOW_ARRANGE
+    END
+    POPUP "ヘルプ(&H)"
+    BEGIN
+        MENUITEM "ヘルプ(&H)",                  ID_HELP
+        MENUITEM SEPARATOR
+        POPUP "ホームページ"
+        BEGIN
+            MENUITEM "スパイシードッグビルダー 3 for Jフォン", 
+                                                    ID_WWW_SPICYDOG
+            MENUITEM "Jフォン株式会社",             ID_WWW_JPHONE
+            MENUITEM "スパイシーソフト株式会社",    ID_WWW_SPICYSOFT
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "バージョン情報(&A)...",       ID_APP_ABOUT
+    END
+END
+
+IDM_PICTVIEW MENU DISCARDABLE 
+BEGIN
+    POPUP ""
+    BEGIN
+        MENUITEM "編集モード",                  ID_PICT_EDITVIEW
+        MENUITEM "プレビューモード",            ID_PICT_PREVIEW
+        MENUITEM SEPARATOR
+        MENUITEM "書出設定編集...",             ID_PICT_OPT
+        MENUITEM SEPARATOR
+        MENUITEM "リサイズ...",                 ID_PICT_RESIZE
+        MENUITEM "トリム...",                   ID_PICT_TRIM
+        MENUITEM "選択矩形をトリム",            ID_PICT_MOUSE_TRIM
+        MENUITEM "選択矩形を解除",              ID_PICT_RESET_SELRECT
+        MENUITEM SEPARATOR
+        MENUITEM "リロード...",                 ID_PICT_RELOAD
+        MENUITEM "外部ツールで編集...",         ID_PICT_EDIT
+        MENUITEM SEPARATOR
+        POPUP "エフェクト"
+        BEGIN
+            MENUITEM "シャープネス ...",            ID_PE_SHARPNESS
+            MENUITEM "モザイク...",                 ID_PE_MOSAIC
+            MENUITEM "平均...",                     ID_PE_AVERAGE
+            MENUITEM "メディアン...",               ID_PE_MEDIAN
+            MENUITEM "ソラライズ...",               ID_PE_SOLARIZE
+            MENUITEM "オイルペイント...",           ID_PE_OILPAINT
+            MENUITEM "ポスタライズ...",             ID_PE_POSTERIZE
+        END
+    END
+END
+
+IDM_CHARLIST MENU DISCARDABLE 
+BEGIN
+    POPUP ""
+    BEGIN
+        MENUITEM "キャラクタ編集\tCtrl+K",      ID_EDIT_CHAR
+        MENUITEM "レイヤーに配置\tCtrl+Enter",  ID_ATTACH_CHAR
+        MENUITEM SEPARATOR
+        MENUITEM "コピー(&C)\tCtrl+C",          ID_EDIT_COPY
+        MENUITEM "カット(&X)\tCtrl+X",          ID_EDIT_CUT
+        MENUITEM "ペースト(&P)\tCtrl+V",        ID_EDIT_PASTE
+        MENUITEM "削除\tDel",                   ID_EDIT_CLEAR
+        MENUITEM "複製(&D)\tCtrl+D",            ID_EDIT_DUP
+        MENUITEM "キャラクタ名称変更...(&R)",   ID_RENAME_CHAR
+        MENUITEM SEPARATOR
+        MENUITEM "ピクチャキャラクタ読込 ...\tCtrl+Alt+1", ID_INS_PICTCHAR
+        MENUITEM "新規ピクチャキャラクタ ...\tCtrl+Alt+2", 
+                                                ID_INS_EMPTYPICTCHAR
+        MENUITEM "新規テキストキャラクタ...\tCtrl+Alt+3", ID_INS_TEXTCHAR
+        MENUITEM "新規ボタンキャラクタ ...\tCtrl+Alt+4", ID_INS_BTNCHAR
+        MENUITEM "サウンドキャラクタ読込 ...\tCtrl+Alt+5", ID_INS_SNDCHAR
+    END
+    POPUP ""
+    BEGIN
+        MENUITEM "ピクチャキャラクタインポート", ID_INS_PICTCHAR
+        MENUITEM "ピクチャキャラクタ新規作成",  ID_INS_EMPTYPICTCHAR
+        MENUITEM "テキストキャラクタ新規作成",  ID_INS_TEXTCHAR
+        MENUITEM "ボタンキャラクタ新規作成",    ID_INS_BTNCHAR
+        MENUITEM "サウンドキャラクタインポート", ID_INS_SNDCHAR
+    END
+END
+
+IDM_STAGES MENU DISCARDABLE 
+BEGIN
+    POPUP ""
+    BEGIN
+        MENUITEM "ステージ編集(&E)",            ID_STAGES_EDIT
+        MENUITEM "ステージ名変更(&R)...",       ID_SUBSTAGES_REN
+        MENUITEM SEPARATOR
+        MENUITEM "サブステージ挿入(&I)",        ID_SUBSTAGES_INS
+        MENUITEM "サブステージ削除(&D)",        ID_SUBSTAGES_DEL
+    END
+END
+
+IDM_STAGE MENU DISCARDABLE 
+BEGIN
+    POPUP ""
+    BEGIN
+        MENUITEM "キャラクタ編集...\tCtrl+K",   ID_EDIT_CHAR
+        MENUITEM SEPARATOR
+        MENUITEM "キャラクタ配置を編集(&M)...", ID_EDIT_PLACING
+        MENUITEM "色アニメーションを編集(&C)...", ID_EDIT_COLORING
+    END
+END
+
+IDM_TIMELINE MENU DISCARDABLE 
+BEGIN
+    POPUP ""
+    BEGIN
+        MENUITEM "アニメーションプロパティ...\tCtrl+F8", ID_TWEEN_PROPERTY
+        MENUITEM "アニメーションを新規作成\tF8", ID_TWEEN_CREATE
+        MENUITEM SEPARATOR
+        MENUITEM "アクションプロパティ...\tAlt+F8", ID_ACTIONS_PROP
+        MENUITEM SEPARATOR
+        MENUITEM "フレーム挿入\tF5",            ID_FRAME_INS
+        MENUITEM "フレーム削除\tShift+F5",      ID_FRAME_DEL
+        MENUITEM SEPARATOR
+        MENUITEM "キーフレーム挿入\tF6",        ID_KEYFRAME_INS
+        MENUITEM "空白キーフレーム挿入\tF7",    ID_KEYFRAME_INSEMPTY
+        MENUITEM SEPARATOR
+        MENUITEM "ラベル挿入...",               ID_LABEL_INS
+        MENUITEM "ラベル削除",                  ID_LABEL_DEL
+        MENUITEM "ラベル編集...",               ID_LABEL_MOD
+    END
+END
+
+IDM_LAYER MENU DISCARDABLE 
+BEGIN
+    POPUP ""
+    BEGIN
+        MENUITEM "全てのレイヤーを表示",        ID_SHOW_ALL_LAYERS
+        MENUITEM "他のレイヤーをロック",        ID_LOCK_OTHER_LAYERS
+        MENUITEM "他のレイヤーを非表示",        ID_HIDE_OTHER_LAYERS
+        MENUITEM SEPARATOR
+        MENUITEM "レイヤーを挿入",              ID_INS_LAYER
+        MENUITEM "レイヤーを削除\tDel",         ID_DEL_LAYER
+        MENUITEM "レイヤー名を変更...",         ID_REN_LAYER
+    END
+END
+
+IDM_VIEWSWITCH MENU DISCARDABLE 
+BEGIN
+    POPUP "on"
+    BEGIN
+        MENUITEM "閉じる(&C)\tShift+F4",        ID_CLOSE_CHARVIEW
+        MENUITEM "全て閉じる(&A)\tShift+Alt+F4", ID_CLOSE_ALL_CHARVIEW
+    END
+    POPUP "out"
+    BEGIN
+        MENUITEM "全て閉じる(&A)\tShift+Alt+F4", ID_CLOSE_ALL_CHARVIEW
+    END
+END
+
+IDM_ACTION MENU DISCARDABLE 
+BEGIN
+    POPUP ""
+    BEGIN
+        POPUP "基本アクション"
+        BEGIN
+            MENUITEM "ジャンプ",                    ID_INSACT_JUMP
+            MENUITEM SEPARATOR
+            MENUITEM "再生",                        ID_INSACT_PLAY
+            MENUITEM "停止",                        ID_INSACT_STOP
+            MENUITEM SEPARATOR
+            MENUITEM "音声再生",                    ID_INSACT_SOUND_PLAY
+            MENUITEM "音声停止",                    ID_INSACT_SOUND_STOP
+            MENUITEM SEPARATOR
+            MENUITEM "終了",                        ID_INSACT_QUIT
+        END
+        POPUP "表示制御"
+        BEGIN
+            MENUITEM "バックライト設定",            ID_INSACT_SET_BACKLIGHT
+            MENUITEM "バイブレーション設定",        ID_INSACT_SET_VIBRATION
+            MENUITEM "ソフトキー設定",              ID_INSACT_SET_SOFTKEY
+            MENUITEM "背景色設定",                  ID_INSACT_SET_BACKGROUND_COLOR
+
+        END
+        POPUP "高度アクション"
+        BEGIN
+            MENUITEM "遅延ジャンプ",                ID_INSACT_DELAY_JUMP
+            MENUITEM "乱数ジャンプ",                ID_INSACT_RANDOM_JUMP
+        END
+    END
+END
+
+IDM_HISTORY MENU DISCARDABLE 
+BEGIN
+    POPUP ""
+    BEGIN
+        MENUITEM "履歴のクリア",                ID_HISTORY_CLEAR
+        MENUITEM SEPARATOR
+        MENUITEM "取り消し\tCtrl+Z",            ID_EDIT_UNDO
+        MENUITEM "やり直し\tCtrl+Y",            ID_EDIT_REDO
+    END
+END
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "ファイル(&F)"
+    BEGIN
+        MENUITEM "新規作成(&N)\tCtrl+N",        ID_FILE_NEW
+        MENUITEM "開く(&O)...\tCtrl+O",         ID_FILE_OPEN
+        MENUITEM SEPARATOR
+        MENUITEM "最近使ったファイル",          ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "アプリケーションの終了(&X)",  ID_APP_EXIT
+    END
+    POPUP "表示(&V)"
+    BEGIN
+        MENUITEM "タイムライン\tAlt+0",         ID_VIEW_TIMELINE
+        MENUITEM "キャラクタ一覧\tAlt+1",       ID_VIEW_CHARLIST
+        MENUITEM "ビルドアウトプット\tAlt+2",   ID_VIEW_BUILDOUTPUT
+        MENUITEM "ステージ一覧\tAlt+3",         ID_VIEW_STAGES
+        MENUITEM "履歴\tAlt+4",                 ID_VIEW_HISTORY
+        MENUITEM "描画ツールボックス",          ID_VIEW_TOOLBOX
+        MENUITEM SEPARATOR
+        MENUITEM "ステータスバー",              ID_VIEW_STATUS_BAR
+        MENUITEM "フローティング表示\tTAB",     ID_TBR_SWITCH
+        MENUITEM SEPARATOR
+        MENUITEM "カスタマイズ...",             ID_VIEW_TOOLBAR_CUSTOMIZE
+        MENUITEM SEPARATOR
+        MENUITEM "グリッド表示",                ID_DISPLAY_GRID
+        MENUITEM "中央グリッド表示",            ID_DISPLAY_CENTER_GRID
+        MENUITEM "ピクセルグリッド表示",        ID_DISPLAY_PIXEL_GRID
+        MENUITEM "グリッド編集...",             ID_GRID_EDIT
+        MENUITEM SEPARATOR
+        MENUITEM "環境設定...",                 ID_PREF
+    END
+    POPUP "ヘルプ(&H)"
+    BEGIN
+        MENUITEM "ヘルプ(&H)",                  ID_HELP
+        MENUITEM SEPARATOR
+        POPUP "ホームページ"
+        BEGIN
+            MENUITEM "スパイシードッグビルダー 3 for Jフォン", 
+                                                    ID_WWW_SPICYDOG
+            MENUITEM "Jフォン株式会社",             ID_WWW_JPHONE
+            MENUITEM "スパイシーソフト株式会社",    ID_WWW_SPICYSOFT
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "バージョン情報(&A)...",       ID_APP_ABOUT
+    END
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "#include ""toolkit\\secres.h""\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 17, 1\r\n"
+    "#pragma code_page(932)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\english.rc2""  // Microsoft Visual C++ 以外のﾂｰﾙで編集されたﾘｿ\\ｰｽ\r\n"
+    "#include ""l.jpn\\afxres.rc""          // 標準のｺﾝﾎﾟｰﾈﾝﾄ\r\n"
+    "#endif\r\n"
+    "#include ""toolkit\\secres.jpn.rc""\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041104b0"
+        BEGIN
+            VALUE "Comments", "for JLITE3\0"
+            VALUE "CompanyName", "Spicysoft Corporation.\0"
+            VALUE "FileDescription", "spicydogj3.exe\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "spicydogj3\0"
+            VALUE "LegalCopyright", "Spicysoft Corporation Copyright (C) 2003\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "english.dll\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "Spicydog JLite 3\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x411, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "0",            ID_VIEW_TIMELINE,       VIRTKEY, ALT, NOINVERT
+    "0",            ID_INS_SHAPECHAR,       VIRTKEY, CONTROL, ALT, NOINVERT
+    "1",            ID_VIEW_CHARLIST,       VIRTKEY, ALT, NOINVERT
+    "1",            ID_INS_PICTCHAR,        VIRTKEY, CONTROL, ALT, NOINVERT
+    "2",            ID_VIEW_BUILDOUTPUT,    VIRTKEY, ALT, NOINVERT
+    "2",            ID_INS_EMPTYPICTCHAR,   VIRTKEY, CONTROL, ALT, NOINVERT
+    "3",            ID_VIEW_STAGES,         VIRTKEY, ALT, NOINVERT
+    "3",            ID_INS_TEXTCHAR,        VIRTKEY, CONTROL, ALT, NOINVERT
+    "4",            ID_VIEW_HISTORY,        VIRTKEY, ALT, NOINVERT
+    "4",            ID_INS_BTNCHAR,         VIRTKEY, CONTROL, ALT, NOINVERT
+    "5",            ID_INS_SNDCHAR,         VIRTKEY, CONTROL, ALT, NOINVERT
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "D",            ID_EDIT_DUP,            VIRTKEY, CONTROL, NOINVERT
+    "D",            ID_DEBUG,               VIRTKEY, SHIFT, CONTROL, ALT, 
+                                                    NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_DELETE,      ID_EDIT_CLEAR,          VIRTKEY, NOINVERT
+    VK_F10,         ID_APP_BUILD,           VIRTKEY, NOINVERT
+    VK_F10,         ID_APP_RUN,             VIRTKEY, SHIFT, NOINVERT
+    VK_F4,          ID_CLOSE_CHARVIEW,      VIRTKEY, SHIFT, NOINVERT
+    VK_F4,          ID_CLOSE_ALL_CHARVIEW,  VIRTKEY, SHIFT, ALT, NOINVERT
+    VK_TAB,         ID_TBR_SWITCH,          VIRTKEY, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Y",            ID_EDIT_REDO,           VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+IDA_STAGE ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "B",            ID_ORDER_BACK,          VIRTKEY, CONTROL, NOINVERT
+    "F",            ID_ORDER_FRONT,         VIRTKEY, CONTROL, NOINVERT
+    "K",            ID_EDIT_CHAR,           VIRTKEY, CONTROL, NOINVERT
+    "R",            ID_TOOL_ROTATE,         VIRTKEY, SHIFT, CONTROL, 
+                                                    NOINVERT
+    "T",            ID_TOOL_RESIZE,         VIRTKEY, SHIFT, CONTROL, 
+                                                    NOINVERT
+    VK_DOWN,        ID_MOVE_DOWN,           VIRTKEY, NOINVERT
+    VK_LEFT,        ID_MOVE_LEFT,           VIRTKEY, NOINVERT
+    VK_RETURN,      ID_PLAY_PLAY,           VIRTKEY, NOINVERT
+    VK_RIGHT,       ID_MOVE_RIGHT,          VIRTKEY, NOINVERT
+    VK_UP,          ID_MOVE_UP,             VIRTKEY, NOINVERT
+END
+
+IDA_CHARLIST ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "K",            ID_EDIT_CHAR,           VIRTKEY, CONTROL, NOINVERT
+    VK_RETURN,      ID_ATTACH_CHAR,         VIRTKEY, CONTROL, NOINVERT
+END
+
+IDA_TIMELINE ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    VK_DOWN,        ID_MOVE_DOWN,           VIRTKEY, NOINVERT
+    VK_F5,          ID_FRAME_INS,           VIRTKEY, NOINVERT
+    VK_F5,          ID_FRAME_DEL,           VIRTKEY, SHIFT, NOINVERT
+    VK_F6,          ID_KEYFRAME_INS,        VIRTKEY, NOINVERT
+    VK_F6,          ID_KEYFRAME_DEL,        VIRTKEY, SHIFT, NOINVERT
+    VK_F7,          ID_KEYFRAME_INSEMPTY,   VIRTKEY, NOINVERT
+    VK_F8,          ID_TWEEN_CREATE,        VIRTKEY, NOINVERT
+    VK_F8,          ID_TWEEN_PROPERTY,      VIRTKEY, CONTROL, NOINVERT
+    VK_F8,          ID_ACTIONS_PROP,        VIRTKEY, ALT, NOINVERT
+    VK_LEFT,        ID_MOVE_LEFT,           VIRTKEY, NOINVERT
+    VK_RETURN,      ID_PLAY_PLAY,           VIRTKEY, NOINVERT
+    VK_RIGHT,       ID_MOVE_RIGHT,          VIRTKEY, NOINVERT
+    VK_UP,          ID_MOVE_UP,             VIRTKEY, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDT_CHARLIST TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_INS_CHAR
+    BUTTON      ID_EDIT_CHAR
+    BUTTON      ID_ATTACH_CHAR
+    BUTTON      ID_EDIT_DUP
+    BUTTON      ID_EDIT_CLEAR
+    BUTTON      ID_CHARLIST_VIEW_LIST
+    BUTTON      ID_CHARLIST_VIEW_PREVIEW
+END
+
+IDT_PLAY TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_PLAY_PLAY
+    BUTTON      ID_PLAY_STOP
+    BUTTON      ID_PLAY_FIRST
+    BUTTON      ID_PLAY_LAST
+    BUTTON      ID_PLAY_PREV
+    BUTTON      ID_PLAY_NEXT
+END
+
+IDT_VIEW TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_STAGEVIEW_NOMASK
+    BUTTON      ID_STAGEVIEW_MASK
+    SEPARATOR
+    BUTTON      ID_SHOW_CENTER
+    SEPARATOR
+    BUTTON      ID_DISPLAY_GRID
+    BUTTON      ID_DISPLAY_CENTER_GRID
+    BUTTON      ID_DISPLAY_PIXEL_GRID
+    BUTTON      ID_GRID_EDIT
+    SEPARATOR
+    BUTTON      ID_TBR_SWITCH
+END
+
+IDT_MODIFY TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_ORDER_FRONT
+    BUTTON      ID_ORDER_UP
+    BUTTON      ID_ORDER_DOWN
+    BUTTON      ID_ORDER_BACK
+    SEPARATOR
+    BUTTON      ID_ALIGN_LEFT
+    BUTTON      ID_ALIGN_CENTER
+    BUTTON      ID_ALIGN_RIGHT
+    BUTTON      ID_ALIGN_TOP
+    BUTTON      ID_ALIGN_VCENTER
+    BUTTON      ID_ALIGN_BOTTOM
+    SEPARATOR
+    BUTTON      ID_INVERT_H
+    BUTTON      ID_INVERT_V
+END
+
+IDR_TOOLBAR_GENERIC TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_PASTE
+    BUTTON      ID_EDIT_CLEAR
+    SEPARATOR
+    BUTTON      ID_EDIT_UNDO
+    BUTTON      ID_EDIT_REDO
+    SEPARATOR
+    BUTTON      ID_HELP
+END
+
+IDR_TOOLBAR_MODIFY TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_ORDER_FRONT
+    BUTTON      ID_ORDER_UP
+    BUTTON      ID_ORDER_DOWN
+    BUTTON      ID_ORDER_BACK
+    SEPARATOR
+    BUTTON      ID_ALIGN_LEFT
+    BUTTON      ID_ALIGN_CENTER
+    BUTTON      ID_ALIGN_RIGHT
+    BUTTON      ID_ALIGN_TOP
+    BUTTON      ID_ALIGN_VCENTER
+    BUTTON      ID_ALIGN_BOTTOM
+    SEPARATOR
+    BUTTON      ID_INVERT_H
+    BUTTON      ID_INVERT_V
+END
+
+IDR_TOOLBAR_VIEW TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_STAGEVIEW_NOMASK
+    BUTTON      ID_STAGEVIEW_MASK
+    SEPARATOR
+    BUTTON      ID_SHOW_CENTER
+    SEPARATOR
+    BUTTON      ID_DISPLAY_GRID
+    BUTTON      ID_DISPLAY_CENTER_GRID
+    BUTTON      ID_DISPLAY_PIXEL_GRID
+    BUTTON      ID_GRID_EDIT
+    SEPARATOR
+    BUTTON      ID_TBR_SWITCH
+END
+
+IDR_TOOLBAR_PICT TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_PICT_EDITVIEW
+    BUTTON      ID_PICT_PREVIEW
+    SEPARATOR
+    BUTTON      ID_PICT_OPT
+    SEPARATOR
+    BUTTON      ID_PICT_RESIZE
+    BUTTON      ID_PICT_TRIM
+    BUTTON      ID_PICT_MOUSE_TRIM
+    SEPARATOR
+    BUTTON      ID_PICT_RELOAD
+    BUTTON      ID_PICT_EDIT
+    SEPARATOR
+    BUTTON      ID_PE_SHARPNESS
+    BUTTON      ID_PE_MOSAIC
+    BUTTON      ID_PE_AVERAGE
+    BUTTON      ID_PE_MEDIAN
+    BUTTON      ID_PE_SOLARIZE
+    BUTTON      ID_PE_OILPAINT
+    BUTTON      ID_PE_POSTERIZE
+END
+
+IDR_TOOLBAR_INS_CHAR TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_INS_PICTCHAR
+    BUTTON      ID_INS_EMPTYPICTCHAR
+    BUTTON      ID_INS_TEXTCHAR
+    BUTTON      ID_INS_BTNCHAR
+    BUTTON      ID_INS_SNDCHAR
+END
+
+IDR_TOOLBAR_BUILD TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_BUILD_BAR
+    BUTTON      ID_APP_BUILD
+    SEPARATOR
+    BUTTON      ID_APP_RUN
+    SEPARATOR
+    BUTTON      ID_APP_PUBLISH_LOCAL
+END
+
+IDR_TOOLBAR_PLAY TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_PLAY_PLAY
+    BUTTON      ID_PLAY_STOP
+    BUTTON      ID_PLAY_FIRST
+    BUTTON      ID_PLAY_LAST
+    BUTTON      ID_PLAY_PREV
+    BUTTON      ID_PLAY_NEXT
+END
+
+IDT_PICT TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_PICT_EDITVIEW
+    BUTTON      ID_PICT_PREVIEW
+    SEPARATOR
+    BUTTON      ID_PICT_OPT
+    SEPARATOR
+    BUTTON      ID_PICT_RESIZE
+    BUTTON      ID_PICT_TRIM
+    BUTTON      ID_PICT_MOUSE_TRIM
+    SEPARATOR
+    BUTTON      ID_PICT_RELOAD
+    BUTTON      ID_PICT_EDIT
+    SEPARATOR
+    BUTTON      ID_PE_SHARPNESS
+    BUTTON      ID_PE_MOSAIC
+    BUTTON      ID_PE_AVERAGE
+    BUTTON      ID_PE_MEDIAN
+    BUTTON      ID_PE_SOLARIZE
+    BUTTON      ID_PE_OILPAINT
+    BUTTON      ID_PE_POSTERIZE
+END
+
+IDT_STAGES TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_STAGES_EDIT
+    BUTTON      ID_SUBSTAGES_REN
+    BUTTON      ID_SUBSTAGES_INS
+    BUTTON      ID_SUBSTAGES_DEL
+END
+
+IDT_DRAW TOOLBAR DISCARDABLE  24, 24
+BEGIN
+    BUTTON      ID_TOOL_SELECT
+    BUTTON      ID_PICT_SEL_RECT
+    BUTTON      ID_TOOL_CENTER
+    BUTTON      ID_PICT_DRAW_DOT
+    BUTTON      ID_SCRVIEW_MOVE
+    BUTTON      ID_SCRVIEW_ZOOM
+END
+
+IDT_HISTORY TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_EDIT_UNDO_ALL
+    BUTTON      ID_EDIT_UNDO
+    BUTTON      ID_EDIT_REDO
+    BUTTON      ID_EDIT_REDO_ALL
+    BUTTON      ID_HISTORY_CLEAR
+END
+
+IDT_SCALEBOX TOOLBAR DISCARDABLE  18, 18
+BEGIN
+    BUTTON      ID_SCALEBOX_SCALE
+    BUTTON      ID_SCALEBOX_DOCUMENT
+    BUTTON      ID_SCALEBOX_TOTAL
+END
+
+IDT_FRAME TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_FRAME_INS
+    BUTTON      ID_FRAME_DEL
+    BUTTON      ID_KEYFRAME_INS
+    BUTTON      ID_KEYFRAME_INSEMPTY
+    BUTTON      ID_LABEL_INS
+    BUTTON      ID_LABEL_DEL
+END
+
+IDT_LAYER TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_INS_LAYER
+    BUTTON      ID_DUP_LAYER
+    BUTTON      ID_ORDER_UP
+    BUTTON      ID_ORDER_DOWN
+    BUTTON      ID_DEL_LAYER
+END
+
+IDT_INSCHAR TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_INS_SHAPECHAR
+    BUTTON      ID_INS_PICTCHAR
+    BUTTON      ID_INS_EMPTYPICTCHAR
+    BUTTON      ID_INS_TEXTCHAR
+    BUTTON      ID_INS_BTNCHAR
+    BUTTON      ID_INS_SNDCHAR
+END
+
+IDT_BUILD TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_BUILD_BAR
+    BUTTON      ID_APP_BUILD
+    SEPARATOR
+    BUTTON      ID_APP_RUN
+    SEPARATOR
+    BUTTON      ID_APP_PUBLISH_LOCAL
+END
+
+IDT_ETC TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_WWW_JPHONE
+    BUTTON      ID_WWW_SPICYDOG
+    BUTTON      ID_WWW_SPICYSOFT
+    BUTTON      ID_ATTACH_CHAR
+    BUTTON      ID_WINDOW_NEW
+    BUTTON      ID_WINDOW_CASCADE
+    BUTTON      ID_WINDOW_TILE_VERT
+    BUTTON      ID_WINDOW_TILE_HORZ
+END
+
+IDR_MAINFRAME TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_PASTE
+    BUTTON      ID_EDIT_CLEAR
+    SEPARATOR
+    BUTTON      ID_EDIT_UNDO
+    BUTTON      ID_EDIT_REDO
+    SEPARATOR
+    BUTTON      ID_HELP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_EDIT_COLORING DLGINIT
+BEGIN
+    IDCC_SELTYPE, 0x403, 7, 0
+0x8228, 0x82c8, 0x29b5, "\000" 
+    IDCC_SELTYPE, 0x403, 7, 0
+0x4690, 0x778e, 0xe892, "\000" 
+    IDCC_SELTYPE, 0x403, 5, 0
+0xbe96, 0x7893, "\000" 
+    IDCC_SELTYPE, 0x403, 9, 0
+0xda8f, 0xd78d, 0x778e, 0xe892, "\000" 
+    0
+END
+
+IDD_TEXT_CHAR DLGINIT
+BEGIN
+    IDCC_FONTFACE, 0x403, 9, 0
+0x5683, 0x5883, 0x6583, 0x8083, "\000" 
+    IDCC_FONTFACE, 0x403, 17, 0
+0x7683, 0x8d83, 0x7c83, 0x5b81, 0x5683, 0x8783, 0x6983, 0x8b83, "\000" 
+    IDCC_FONTFACE, 0x403, 13, 0
+0x8283, 0x6d83, 0x5883, 0x7983, 0x5b81, 0x5883, "\000" 
+    IDCC_FONTSIZE, 0x403, 9, 0
+0x5883, 0x8283, 0x5b81, 0x8b83, "\000" 
+    IDCC_FONTSIZE, 0x403, 11, 0
+0x7e83, 0x6683, 0x4283, 0x4183, 0x8083, "\000" 
+    IDCC_FONTSIZE, 0x403, 7, 0
+0x8983, 0x5b81, 0x5783, "\000" 
+    0
+END
+
+IDD_EDIT_PICT_QUANTIZE DLGINIT
+BEGIN
+    IDCC_PNG_ACTTYPE, 0x403, 27, 0
+0x8338, 0x8372, 0x8362, 0x8367, 0x834a, 0x8189, 0x285b, 0x3a52, 0x3a47, 
+0x3d42, 0x3a33, 0x3a33, 0x2932, "\000" 
+    IDCC_PNG_ACTTYPE, 0x403, 11, 0
+0x6557, 0x2062, 0x3132, 0x2036, 0x4690, "\000" 
+    IDCC_PNG_ACTTYPE, 0x403, 8, 0
+0x6957, 0x646e, 0x776f, 0x0073, 
+    IDCC_PNG_ACTTYPE, 0x403, 10, 0
+0x614d, 0x6963, 0x746e, 0x736f, 0x0068, 
+    IDCC_PNG_ACTTYPE, 0x403, 15, 0
+0x4f83, 0x8c83, 0x5b81, 0x5883, 0x5083, 0x5b81, 0x8b83, "\000" 
+    IDCC_PNG_ACTTYPE, 0x403, 15, 0
+0x8283, 0x6d83, 0x4e83, 0x8d83, 0x5182, 0x4b8a, 0xb292, "\000" 
+    IDCC_PNG_ACTTYPE, 0x403, 16, 0
+0x4752, 0x8242, 0x8bf0, 0x93cf, 0x8299, 0x8ac9, 0x9584, 0x0074, 
+    IDCC_PNG_ACTTYPE, 0x403, 9, 0
+0x4a83, 0x5883, 0x5e83, 0x8083, "\000" 
+    IDCC_PNG_COLORBITS, 0x403, 2, 0
+0x0032, 
+    IDCC_PNG_COLORBITS, 0x403, 2, 0
+0x0034, 
+    IDCC_PNG_COLORBITS, 0x403, 2, 0
+0x0038, 
+    IDCC_PNG_COLORBITS, 0x403, 3, 0
+0x3631, "\000" 
+    IDCC_PNG_COLORBITS, 0x403, 3, 0
+0x3233, "\000" 
+    IDCC_PNG_COLORBITS, 0x403, 3, 0
+0x3436, "\000" 
+    IDCC_PNG_COLORBITS, 0x403, 4, 0
+0x3231, 0x0038, 
+    IDCC_PNG_COLORBITS, 0x403, 4, 0
+0x3532, 0x0036, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// ACT
+//
+
+IDACT_GRAY              ACT     DISCARDABLE     "res\\act\\gray.act"
+IDACT_IMODE             ACT     DISCARDABLE     "res\\act\\imode.act"
+IDACT_MAC               ACT     DISCARDABLE     "res\\act\\mac.act"
+IDACT_MONO              ACT     DISCARDABLE     "res\\act\\mono.act"
+IDACT_RGB               ACT     DISCARDABLE     "res\\act\\rgb.act"
+IDACT_WEB               ACT     DISCARDABLE     "res\\act\\web.act"
+IDACT_WIN               ACT     DISCARDABLE     "res\\act\\win.act"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ACTTABLE_COLORS     "%d 色"
+    IDS_AN_DELAY_JUMP_ACTION "遅延ジャンプ"
+    IDS_AN_JUMP_ACTION      "ジャンプ"
+    IDS_AN_PLAY_ACTION      "アプリの実行再開"
+    IDS_AN_RANDOM_JUMP_ACTION "ランダムジャンプ"
+    IDS_AN_SET_BKGND_COLOR_ACTION "背景色設定"
+    IDS_AN_SET_BKLIGHT_ACTION "バックライト設定"
+    IDS_AN_SET_SOFTKEY      "ソフトキー設定"
+    IDS_AN_SET_VIBRATION_ACTION "バイブレーション制御"
+    IDS_AN_SOUND_PLAY_ACTION "サウンド再生"
+    IDS_AN_SOUND_STOP_ACTION "サウンド停止"
+    IDS_AN_STOP_ACTION      "アプリの実行一時停止"
+    IDS_APPLICONF           "スパイシードッグアプリ設定"
+    IDS_APPLI_ICON_FILTER   "アイコンファイル(PNG形式 24 x 24 ピクセル 8ビット)(*.png)|*.png|全てのファイル形式(*.*)|*.*||"
+    IDS_APPLI_TYPE_JPHONEF  "0xシリーズ(50kアプリ) 型"
+    IDS_APPLI_TYPE_JPHONEFM "0xシリーズ(50kアプリ) 待受型"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_PEUNIT_OILIFY       "ピクセル"
+    IDS_PEUNIT_POSTERIZE    "レベル"
+    IDS_PEUNIT_SHARPNESS    "-"
+    IDS_PEUNIT_SOLARIZE     "-"
+    IDS_PICTOPT_ACTTABLE_TOOLTIP "%03d RGB(#%02X%02X%02X)"
+    IDS_PICT_FILTER         "パススルーで書出可能な読込ファイル形式(*.jpg;*.png)|*.jpg;*.png|読込可能なファイル形式(*.jpg;*.png;*.bmp)|*.jpg;*.jpeg;*.png;*.bmp|bitmap ファイル(*.bmp)|*.bmp|png ファイル(*.png)|*.png|jpeg ファイル(*.jpg;*.jpeg)|*.jpg;*.jpeg|全てのファイル形式(*.*)|*.*||"
+    IDS_QUIT_ACTION         "アプリの終了"
+    IDS_RANDOM_JUMP_COL_LABEL "ラベル名"
+    IDS_RANDOM_JUMP_COL_PROBABILITY "確率"
+    IDS_REGISTRY_KEY_APPLICATION "SpicydogBuilder 3 for J-Phone"
+    IDS_REGISTRY_KEY_COMPANY "Spicysoft"
+    IDS_SND_FILTER          "SMAFフレーズファイル(*.spf;*.mmf)|*.spf;*.mmf|全てのファイル(*.*)|*.*||"
+    IDS_SOCKETS_INIT_FAILED "ソケットの初期化失敗"
+    IDS_STAGESDLG_FRAME     "フレーム数"
+    IDS_STAGESDLG_LAYER     "レイヤ数"
+    IDS_STAGESDLG_NAME      "ステージ名"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_CLH_CHARTYPE        "タイプ"
+    IDS_CLH_CHARUSE         "使用数"
+    IDS_CLOCK_TYPE_CLOCK_NONE "時計を表示しない"
+    IDS_CLOCK_TYPE_DIGITAL_CLOCK_LARGE "大きなデジタル時計を表示する"
+    IDS_CLOCK_TYPE_DIGITAL_CLOCK_SMALL "小さいデジタル時計を表示する"
+    IDS_DEFAULT_APPLI_COMMENT "アプリについての説明"
+    IDS_DEFAULT_APPLI_TITLE "アプリ名"
+    IDS_DEFAULT_APPLI_VENDOR "会社名"
+    IDS_DN_PREF             "環境設定"
+    IDS_EN_ACTION_LIST_OVER_SIZE "アクションは255個以内でなくてはなりません"
+    IDS_EN_CAN_NOT_GET_EDIT_EXE_PATH 
+                            "画像を編集する外部ツールを検知できませんでした"
+    IDS_EN_EMPTY_EDIT_EXE_PATH "画像を編集する外部ツールが設定されていません"
+    IDS_EN_INVALID_EDIT_EXE_PATH "不正な画像編集外部ツール\n「フォルダオプション」の「ファイルの種類」で拡張子BMPのプログラムをPaintに割り当ててください。\nWindowsXPのWindows Picture and FAX Viewerに割り当てられていると動作しません"
+    IDS_EN_INVALID_NULL_TEXT "テキストが空です"
+    IDS_EN_MET_APPERR       "ビルドエラー"
+    IDS_EN_MET_NONE         "---"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_APPLI_TYPE_JPHONEG  "5xシリーズ(100kアプリ)型"
+    IDS_APPLI_TYPE_JPHONEGM "5xシリーズ(100kアプリ)待受型"
+    IDS_BTN_CHAR_VIEW_NOCHAR_REF "キャラクタが未指定"
+    IDS_BUILDOUTPUTDLG_LIST_LOC "位置"
+    IDS_BUILDOUTPUTDLG_LIST_MSG "メッセージ"
+    IDS_BUILDOUTPUTDLG_LIST_STATE "状態"
+    IDS_BUILD_CONTEXT_APPLICONF "アプリ設定"
+    IDS_BUILD_OUTPUT_ITEM_TYPE_ERROR "エラー"
+    IDS_BUILD_OUTPUT_ITEM_TYPE_WARNING "警告"
+    IDS_CHAR_DISPLAY_NAME_BTN "ボタンキャラクタ"
+    IDS_CHAR_DISPLAY_NAME_PICT "ピクチャキャラクタ"
+    IDS_CHAR_DISPLAY_NAME_SOUND "サウンドキャラクタ"
+    IDS_CHAR_DISPLAY_NAME_TEXT "テキストキャラクタ"
+    IDS_CLH_CHARDESC        "説明"
+    IDS_CLH_CHARNAME        "名前"
+    IDS_CLH_CHARSIZE        "サイズ"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_STAGESDLG_SIZE      "サイズ"
+    IDS_STAGEVIEW_CAPTION   "ステージビュー"
+    IDS_STAGE_LABEL_NAME    "%s"
+    IDS_TEXTCHAR_NAME_FORMAT "%s"
+    IDS_TITLE_BUILDOUTPUT   "ビルドアウトプット"
+    IDS_TITLE_CHARLIST      "キャラクタ一覧"
+    IDS_TITLE_HISTORY       "履歴"
+    IDS_TITLE_STAGES        "ステージ"
+    IDS_TITLE_TIMELINE      "タイムライン"
+    IDS_TITLE_TOOLSBOX      "ツールボックス"
+    IDS_TOOLBAR_TITLE_BUILD "ビルド"
+    IDS_TOOLBAR_TITLE_GENERIC "標準"
+    IDS_TOOLBAR_TITLE_INSCHAR "キャラクタ挿入"
+    IDS_TOOLBAR_TITLE_MODIFY "編集"
+    IDS_TOOLBAR_TITLE_PICT  "画像"
+    IDS_TOOLBAR_TITLE_PLAY  "再生"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ERR_APPLICONF_COMMENT 
+                            "アプリコメントはUTF8エンコーディングして64バイト以内です。\n英数字記号は一文字当たり約1バイト、\n日本語は一文字当たり約3バイトです。"
+    IDS_ERR_APPLICONF_ICON  "アイコン画像はPNG形式で縦横24ピクセルで色深度が8ビットでなくてはいけません。"
+    IDS_ERR_APPLICONF_TITLE "アプリタイトル名はUTF8エンコーディングして16バイト以内です。\n英数字記号は一文字当たり約1バイト、\n日本語は一文字当たり約3バイトです。"
+    IDS_ERR_APPLICONF_VENDOR 
+                            "アプリベンダー名はUTF8エンコーディングして16バイト以内です。\n英数字記号は一文字当たり約1バイト、\n日本語は一文字当たり約3バイトです。"
+    IDS_FONT_FACE_MONOSPACE "ＭＳ Ｐゴシック"
+    IDS_FONT_FACE_PROPOTIONAL "ＭＳ Ｐゴシック"
+    IDS_FONT_FACE_SYSTEM    "ＭＳ Ｐゴシック"
+    IDS_KEYFRAME_LABEL_NAME "%s > %s (%d)"
+    IDS_LAYERHDR_FRAME_FORMAT "%d"
+    IDS_LAYERHDR_TIME_FORMAT "%d / %d ㍉秒"
+    IDS_MAIN_STAGE_NAME     "メインステージ"
+    IDS_NEW_CHARNAME_BTN    "名称未設定ボタンキャラクタ"
+    IDS_NEW_CHARNAME_PICT   "名称未設定ピクチャキャラクタ"
+    IDS_NEW_LAYER_NAME      "新規レイヤ %d"
+    IDS_NEW_STAGE_NAME      "新規サブステージ"
+    IDS_PENAME_AVERAGE      "平均化"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDACT_GRAY              "グレースケール"
+    IDACT_IMODE             "8ビットカラー(R:G:B=3:3:2)"
+    IDACT_MAC               "Macパレット"
+    IDACT_MONO              "白黒"
+    IDACT_RGB               "RGBパレット"
+    IDACT_WEB               "Webパレット"
+    IDACT_WIN               "Windowsパレット"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_EN_NO_LABEL_ATACHED "ジャンプ先ラベルが指定されていません"
+    IDS_EN_NO_SND_ATTACHED  "再生サウンドが指定されていません"
+    IDS_EN_NO_TITLE         "タイトルが指定されていません"
+    IDS_EN_PICT_DATA_OVER_SIZE "画像のファイルサイズが64Kを超えています"
+    IDS_EN_PICT_INVALID_CENTER "画像の中央点が画像矩形外に設定されています"
+    IDS_EN_PICT_INVALID_IMPORT_FORMAT "PNG/JPG/GIF/BMPのみインポート可能"
+    IDS_EN_PICT_INVALID_PATHTHROUGH_FORMAT "パススルー形式はPNG/JPGのみ"
+    IDS_EN_PICT_INVALID_PICT "Java[TM]アプリがサポートしていない画像形式です"
+    IDS_EN_PICT_INVALID_SIZE "画像の縦横サイズが1024ピクセルを超えています"
+    IDS_EN_RANDOM_JUMP_INVALID_LABEL "ジャンプ先ラベルが指定されていません"
+    IDS_EN_RANDOM_JUMP_INVALID_PROBABILITY "一部のケースの確率値が不正です"
+    IDS_EN_RANDOM_JUMP_NOCASE "ケースが指定されていません"
+    IDS_EN_RANDOM_JUMP_OVERSIZE 
+                            "ランダムジャンプのケースは255以内でなくてはなりません"
+    IDS_EN_SOFTKEY_LABEL_OVER_LENGTH "ラベル文字列は4バイト以内です"
+    IDS_EN_TITLE_OVER_SIZE  "タイトルはUTF8形式で16バイト以内です"
+    IDS_EN_VENDOR_OVER_SIZE "ベンダー名はUTF8形式で16バイト以内です"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDC_EN_RANDOM_JUMP_INVALID_CASE "不正ケース"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_KEYFRAME_INS         "キーフレーム挿入"
+    ID_KEYFRAME_INSEMPTY    "空白キーフレーム挿入"
+    ID_LABEL_DEL            "ラベル削除"
+    ID_LABEL_INS            "ラベル挿入"
+    ID_LABEL_MOD            "ラベル編集"
+    ID_LOCK_OTHER_LAYERS    "他のレイヤーをロック"
+    ID_MAIL_SPICYDOG        "support@spicy-dog.com"
+    ID_ORDER_DOWN           "レイヤーの表示順序を下げる"
+    ID_ORDER_UP             "レイヤーの表示順序を上げる"
+    ID_PE_AVERAGE           "平均"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_REDO_ALL        "全てやり直し\n全てやり直し"
+    ID_EDIT_UNDO_ALL        "全て取り消し\n全て取り消し"
+    IDS_APPLI_ICON_OPEN_FILE_ERROR "指定したファイルを開けませんでした。\n%s"
+    ID_FRAME_DEL            "フレーム削除"
+    ID_FRAME_INS            "フレーム挿入"
+    ID_GRID_EDIT            "グリッド編集"
+    ID_HIDE_OTHER_LAYERS    "他のレイヤーを非表示"
+    ID_HISTORY_CLEAR        "履歴をクリア\n履歴をクリア"
+    IDS_APPLI_ICON_READ_FILE_ERROR "ファイルを読み込む時にエラー\n%s"
+    ID_INSACT_DELAY_JUMP    "遅延ジャンプ"
+    ID_INSACT_JUMP          "ジャンプアクション"
+    ID_INSACT_PLAY          "再生アクション"
+    ID_INSACT_QUIT          "終了アクション"
+    ID_INSACT_RANDOM_JUMP   "乱数ジャンプ"
+    ID_INSACT_SET_BACKGROUND_COLOR "背景色設定"
+    ID_INSACT_SET_BACKLIGHT "バックライト設定"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_TOOLBAR_TITLE_VIEW  "表示"
+    ID_ACTIONS_PROP         "アクションプロパティ"
+    IDS_APPLI_ICON_NULL     "アイコンデータが空です"
+    IDS_APPLI_ICON_CORRUPTED_HEAD 
+                            "アイコンファイルは画像フォーマットではありません"
+    IDS_APPLI_ICON_NOT_PNG  "アイコン画像として許されているのはPNG形式のみ"
+    IDS_APPLI_ICON_INVALID_BITS 
+                            "アイコン画像の色深度は8ビットのみですが、\n指定したファイルは %d ビットです。"
+    IDS_APPLI_ICON_INVALID_WIDTH 
+                            "アイコン画像の幅は 24 ピクセル で作成してください。\n指定した画像の幅は %d ピクセル でした。"
+    IDS_APPLI_ICON_INVALID_HEIGHT 
+                            "アイコン画像の高さは 24 ピクセル で作成してください。\n指定した画像の高さは %d ピクセル でした。"
+    ID_APP_BUILD            "アプリをビルド\nアプリをビルド"
+    ID_APP_CONF             "アプリ設定\nアプリ設定"
+    ID_APP_PUBLISH_LOCAL    "ローカル発行\nローカル発行"
+    ID_APP_RUN              "エミュレータで実行\nエミュレータで実行"
+    ID_APP_VIEWADF          "JADファイルを閲覧する\nJADファイルを閲覧する"
+    ID_APP_VIEW_JAD         "生成されるJADファイルを確認する"
+    ID_ATTACH_CHAR          "レイヤーに配置する"
+    ID_CHARLIST_VIEW_LIST   "キャラクタを一覧で表示"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_PENAME_MEDIAN       "メディアン"
+    IDS_PENAME_MOSAIC       "モザイク"
+    IDS_PENAME_OILIFY       "オイルペイント"
+    IDS_PENAME_POSTERIZE    "ポスタライズ"
+    IDS_PENAME_SHARPNESS    "シャープネス"
+    IDS_PENAME_SOLARIZE     "ソラライズ"
+    IDS_PEPARAM_AVERAGE     "適用エリア"
+    IDS_PEPARAM_MEDIAN      "適用エリア"
+    IDS_PEPARAM_MOSAIC      "タイルサイズ"
+    IDS_PEPARAM_OILIFY      "適用エリア"
+    IDS_PEPARAM_POSTERIZE   "カラーレベル"
+    IDS_PEPARAM_SHARPNESS   "シャープネス量"
+    IDS_PEPARAM_SOLARIZE    "閾値"
+    IDS_PEUNIT_AVERAGE      "ピクセル"
+    IDS_PEUNIT_MEDIAN       "ピクセル"
+    IDS_PEUNIT_MOSAIC       "ピクセル"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_PE_MEDIAN            "メディアン"
+    ID_PE_MOSAIC            "モザイク"
+    ID_PE_OILPAINT          "オイルペイント"
+    ID_PE_POSTERIZE         "ポスタライズ"
+    ID_PE_SHARPNESS         "シャープネス"
+    ID_PE_SOLARIZE          "ソラライズ"
+    ID_PICT_DRAW_DOT        "ドット描画\nドット描画"
+    ID_PICT_EDIT            "外部ツールで編集"
+    ID_PICT_EDITVIEW        "編集モードで表示"
+    ID_PICT_MOUSE_TRIM      "選択矩形をトリム"
+    ID_PICT_OPT             "書出設定を編集"
+    ID_PICT_PREVIEW         "プレビューモードで表示"
+    ID_PICT_RELOAD          "リロード"
+    ID_PICT_RESET_SELRECT   "選択矩形を解除"
+    ID_PICT_RESIZE          "リサイズ"
+    ID_PICT_SEL_RECT        "トリム矩形を選択する"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDCS_ERR_PICT_MOUSE_TRIM_SEL_EMPTY "選択矩形が空"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_TWEEN_PROPERTY       "アニメーションプロパティ"
+    ID_VIEW_BUILDOUTPUT     "ビルドアウトプットの表示をオンオフする"
+    ID_VIEW_CHARLIST        "キャラクタ一覧の表示をオンオフする"
+    ID_VIEW_HISTORY         "履歴の表示をオンオフ"
+    ID_VIEW_STAGES          "ステージ一覧の表示をオンオフ"
+    ID_VIEW_TIMELINE        "タイムラインの表示をオンオフする"
+    ID_VIEW_TOOLBAR_CUSTOMIZE "ツールバーをカスタマイズする"
+    ID_VIEW_TOOLBOX         "描画ツールボックスの表示をオンオフする"
+    ID_WWW_JPHONE           "http://www.j-phone.com/"
+    ID_WWW_SPICYDOG         "http://www.spicy-dog.com/"
+    ID_WWW_SPICYSOFT        "http://www.spicysoft.com/"
+    IDCMD_ATTACH_LAYER_CHAR "レイヤーにキャラクタを配置"
+    IDCMD_DEL_CHAR          "キャラクタ削除"
+    IDCMD_DEL_FRAMES        "選択フレームを削除"
+    IDCMD_DEL_KEY_FRAME_LABEL "キーフレームを削除"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDCMD_DEL_LAYER         "レイヤーを削除"
+    IDCMD_DEL_SUB_STAGE     "サブステージを削除"
+    IDCMD_DUP_CHAR          "キャラクタ複製"
+    IDCMD_INS_CHAR          "新キャラクタ挿入"
+    IDCMD_INS_FRAMES        "フレーム挿入"
+    IDCMD_INS_KEY_FRAME     "キーフレーム挿入"
+    IDCMD_INS_KEY_FRAME_LABEL "キーフレーム挿入"
+    IDCMD_INS_LAYER         "レイヤー挿入"
+    IDCMD_INS_SUB_STAGE     "挿入サブステージ"
+    IDCMD_MOD_ACTION_LIST   "アクションリスト編集"
+    IDCMD_MOD_BTN_CHAR      "ボタンキャラクタ編集"
+    IDCMD_MOD_KEY_FRAME     "キーフレーム挿入"
+    IDCMD_MOD_KEY_FRAME_LABEL "キーフレームラベル編集"
+    IDCMD_MOD_SND_CHAR      "サウンドキャラクタ編集"
+    IDCMD_MOD_TEXT_CHAR     "テキストキャラクタ編集"
+    IDCMD_MOV_LAYER         "レイヤーオーダー変更"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDCMD_PICT_DRAW_DOT     "ドット描画"
+    IDCMD_PICT_EDIT_BY_EXE  "外部ツールで編集"
+    IDCMD_PICT_EFFECT       "エフェクト適用"
+    IDCMD_PICT_INVERT_H     "水平に鏡像変換"
+    IDCMD_PICT_INVERT_V     "垂直に鏡像変換"
+    IDCMD_PICT_RELOAD       "画像リロード"
+    IDCMD_PICT_RESIZE       "ピクチャリサイズ"
+    IDCMD_PICT_SET_CENTER   "ピクチャ中央点を設定"
+    IDCMD_PICT_SET_QUANTIZE_PARAM "ピクチャ書出設定変更"
+    IDCMD_PICT_TRIM         "ピクチャトリム"
+    IDCMD_REN_CHAR          "キャラクタ名変更"
+    IDCMD_REN_LAYER         "レイヤー名変更"
+    IDCMD_REN_SUB_STAGE     "サブステージ名変更"
+    IDS_ERR_CAN_NOT_RUN_EMU "エミュレータを実行できませんでした"
+    IDS_ERR_INVALID_EMU_PATH "エミュレーターのパスが正しく設定されていない。"
+    IDS_ERR_CANNOT_RUN_FOR_BUILD_ERR 
+                            "正しくビルドできなかったので実行できません。\nビルドアウトプットの情報をご覧ください。"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_CHARLIST_VIEW_PREVIEW "キャラクターをプレビューで表示"
+    ID_CLOSE_ALL_CHARVIEW   "全て閉じる"
+    ID_CLOSE_CHARVIEW       "閉じる"
+    ID_COLOR_CHANGE_LINE    "線色\n線色"
+    ID_COLOR_CHANGE_PAINT   "塗色\n塗色"
+    IDS_APPLI_ICON_CORRUPTED "このPNGファイルは破損しています。"
+    ID_DEL_LAYER            "レイヤーを削除"
+    ID_DISPLAY_CENTER_GRID  "中央グリッド表示"
+    ID_DISPLAY_GRID         "グリッド表示"
+    ID_DISPLAY_PIXEL_GRID   "ピクセルグリッド表示"
+    ID_BUILD_BAR            "アプリの容量バー"
+    ID_DUP_LAYER            "レイヤーを複製する"
+    ID_EDIT_CHAR            "キャラクタを編集する"
+    ID_EDIT_COLORING        "色アニメーションを編集"
+    ID_EDIT_DUP             "キャラクタを複製する"
+    ID_EDIT_PLACING         "キャラクタ配置を編集"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_PICT_TRIM            "トリム"
+    ID_PLAY_FIRST           "最初のフレームに戻る"
+    ID_PLAY_LAST            "最後のフレームへ移動"
+    ID_PLAY_NEXT            "次のフレーム"
+    ID_PLAY_PLAY            "プレビュー再生"
+    ID_PLAY_PREV            "一つ前のフレーム"
+    ID_PLAY_STOP            "プレビュー停止"
+    ID_PREF                 "環境設定"
+    ID_RENAME_CHAR          "キャラクタの名称変更"
+    ID_REN_LAYER            "レイヤー名を変更"
+    ID_SCALEBOX_DOCUMENT    "キャンバス表示領域全体"
+    ID_SCALEBOX_SCALE       "スケール指定"
+    ID_SCALEBOX_TOTAL       "キャンバス編集領域全体"
+    ID_SCROLLVIEWEX_MOUSE   "マウス位置 : (%d,%d)"
+    ID_SCROLLVIEWEX_SCALE   "表示スケール"
+    ID_SCRVIEW_MOVE         "スクロール画面をドラッグ移動"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "スパイシードッグビルダー 3 for Jフォン"
+    IDR_SDBTYPE             "\nアプリ\nアプリ\nスパイシードッグ オーサリングファイル (*.sdb)\n.sdb\nSpicyDog.BuilderDocument\nSpicyDogBuilderFile"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_JAD_FILTER          "Java[TM]アプリ定義ファイル(*.jad)|*.jad|全てのファイル(*.*)|*.*||"
+    IDS_ERR_PUBLISH_FOR_BUILD_ERR 
+                            "正しくビルドできなかったので発行しませんでした。\nビルドアウトプットの情報をご覧ください。"
+    IDS_FILTER_EMU          "JSky アプリケーション エミュレータ(jbmidp.jar)|jbmidp.jar|全てのファイル|*.*||"
+    IDS_DEFEXT_EMU          "*.jar"
+    IDS_FILENAME_EMU        "jbmidp.jar"
+    IDS_JAD_DEFEXT          "jad"
+    IDS_JAD_FILENAME        ".jad"
+    IDS_ERR_CAN_NOT_DETECT_EMU_PATH 
+                            "エミュレータのパスを自動検知できませんでした。\nJSkyアプリケーションエミュレーターをインストールしたパスのbin\\jbmidp.jarファイルを手動で指定してください。"
+    IDCS_ERR_INVALID_FWD_MAIL_TO 
+                            "送信先のメールアドレスの設定が正しくありません"
+    IDCS_ERR_INVALID_FWD_MAIL_FROM 
+                            "送信元のメールアドレスの設定が正しくありません。"
+    IDCS_ERR_INVALID_FWD_MAIL_SMTP_SERVER 
+                            "メールサーバーの設定が正しくありません。"
+    IDCS_ERR_INVALID_SCHEDULE_CRITERIA 
+                            "スケジュールイベントの受信条件が不正です"
+    IDCS_INVALID_TEL_CRITERIA "電話イベントの受信条件が不正です"
+    IDCE_INVALID_CHARNAME   "キャラクタ名は3文字以上32文字以内です"
+    IDS_ERR_INVALID_COLOR_MUL "色の乗算値が不正です"
+    IDS_ERR_UPLOAD          "アップロードできませんでした"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "スパイシードッグビルダー 3 for Jフォン"
+    AFX_IDS_IDLEMESSAGE     " "
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "ウインドウのサイズを変更"
+    AFX_IDS_SCMOVE          "ウインドウの位置を変更"
+    AFX_IDS_SCMINIMIZE      "ウインドウを最小化する"
+    AFX_IDS_SCMAXIMIZE      "ウインドウを最大化する"
+    AFX_IDS_SCNEXTWINDOW    "次のウインドウに切り替える"
+    AFX_IDS_SCPREVWINDOW    "前のウインドウに切り替える"
+    AFX_IDS_SCCLOSE         "作業中のウインドウを閉じ、変更したファイルの保存を指示"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "ウインドウを通常のサイズに戻す"
+    AFX_IDS_SCTASKLIST      "アプリケーションの切り替え"
+    AFX_IDS_MDICHILD        "指定のウインドウを表示"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "印刷プレビューモードの終わり\nプレビューのキャンセル"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_FOWARDING_DOWNLOAD_URL "ダウンロードURLを転送中"
+    IDS_UPLOADING           "アップロード中"
+    IDS_PREPAREING          "準備中 ..."
+    IDCS_SET_DOWNLOAD_URL_TO_CLIP 
+                            "ダウンロードURLをクリップボードにコピーしました。"
+    IDS_ERR_UPLOAD_HTTP_ERROR 
+                            "HTTP通信障害が発生しました。\nエラーコード：%d\nエラーメッセージ：%s\nステータス：%d"
+    IDS_ERR_UPLOAD_CURRUPTED_RESULT "サーバーの返信が不正な内容です。"
+    IDS_ERR_UPLOAD_ERROR_RESULT 
+                            "アップロードできませんでした。\n理由:(%d):%s:%s"
+    IDS_ERR_UPLOAD_ERROR_RESULT_200 "不明な入力エラー"
+    IDS_ERR_UPLOAD_ERROR_RESULT_201 "ファイル・オーバ・サイズ"
+    IDS_ERR_UPLOAD_ERROR_RESULT_202 "未対応アプリ種別"
+    IDS_ERR_UPLOAD_ERROR_RESULT_300 "サーバー障害"
+    IDS_PICT_TYPE_PTJPG     "パススルー JPEG"
+    IDS_PICT_TYPE_PTPNG     "パススルー PNG"
+    IDS_PICT_TYPE_PNG       "PNG"
+    IDS_PICT_TYPE_JPG       "JPEG"
+    IDS_WARNING_LOAD_FROM_OLD_VERSION 
+                            "古いバージョンのスパイシードッグのファイルを読み込もうとしています。\n編集した後に保存すると古いバージョンのスパイシードッグで読み込めなくなってしまいますがよろしいですか？"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_WARNING_SAVE_FROM_OLD_VERSION 
+                            "古いバージョンのスパイシードッグファイルを編集した後に保存すると、古いバージョンのスパイシードッグでは読み込むことができませんがよろしいですか？"
+    IDS_CANCEL_SAVE_FROM_OLD_VERSION "ファイルの保存をキャンセルしました"
+    IDS_CANCEL_LOAD_FROM_OLD_VERSION "ファイルの読込をキャンセルしました。"
+    IDS_PASTE_PICT_CHAR_NAME_FORMAT "クリップボードピクチャ %d"
+    IDS_AN_QUIT_ACTION      "アプリの終了"
+    IDS_ERR_OVERSIZED_BUILT_JAR 
+                            "アプリをビルドした結果、Jarファイルのサイズが限界サイズの %d バイトを超えました。"
+    IDS_OVERSIZED_BUILT_JAR_ "生成したJar"
+    IDS_ERR_CAN_NOT_LOAD_MMF 
+                            "Phrase形式でないSMAFファイルを読み込むことはできません。"
+    IDS_MAIL_WARNING_ONLY_F "【ご注意】\nこのアプリは0xシリーズ(50kアプリ)、5xシリーズ(100kアプリ)でダウンロードできます。"
+    IDS_MAIL_WARNING_ONLY_G "【ご注意】\nこのアプリは5xシリーズ(100kアプリ)専用です。\n0xシリーズではダウンロードできません。"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INSACT_SET_SOFTKEY   "ソフトキー設定"
+    ID_INSACT_SET_VIBRATION "バイブレーション設定"
+    ID_INSACT_SOUND_PLAY    "音声再生アクション"
+    ID_INSACT_SOUND_STOP    "音声停止アクション"
+    ID_INSACT_STOP          "停止アクション"
+    ID_INS_BTNCHAR          "新規ボタンキャラクタを作成"
+    ID_INS_CHAR             "キャラクタ挿入"
+    ID_INS_EMPTYPICTCHAR    "空のピクチャキャラクタを作成"
+    ID_INS_LAYER            "レイヤーを挿入"
+    ID_INS_PICTCHAR         "画像ファイルからピクチャキャラクタを生成"
+    IDS_WARNING_SMAF_PHRASE_MA2 
+                            "0xシリーズ(50kアプリ)はSMAF Phrase/MA2のみ対応です。\nSMAF Phrase/MA3 は、5xシリーズ(100kアプリ)のみ対応しています。"
+    ID_INS_SNDCHAR          "SMAFファイルからサウンドキャラクタを作成"
+    ID_INS_TEXTCHAR         "新規テキストキャラクタを作成"
+    IDS_FORWARDING_DOWNLOAD_URL_HEAD "【ダウンロードURL】"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "削除"
+    ID_EDIT_COPY            "クリップボードにコピー"
+    ID_EDIT_CUT             "クリップボードへカット"
+    ID_EDIT_PASTE           "クリップボードへペースト"
+    ID_EDIT_UNDO            "取り消し"
+    ID_EDIT_REDO            "やり直し"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_SHOW_ALL_LAYERS      "全てのレイヤーを表示"
+    ID_SHOW_CENTER          "キャラクターセンターの表示をオンオフする"
+    ID_STAGES_EDIT          "ステージ編集"
+    ID_STAGEVIEW_MASK       "キャンバス以外をマスクしてキャンバスのみ表示する"
+    ID_STAGEVIEW_NOMASK     "全てを表示する"
+    ID_SUBSTAGES_DEL        "サブステージ削除"
+    ID_SUBSTAGES_INS        "サブステージ挿入"
+    ID_SUBSTAGES_REN        "ステージ名変更"
+    ID_TBR_SWITCH           "全てのフローティングウインドウの表示をオンオフする"
+    ID_TOOL_CENTER          "ピクチャーのセンターを決める"
+    ID_TOOL_SELECT          "キャラクタを選択する"
+    ID_TWEEN_CREATE         "アニメーションを新規作成"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "新規作成"
+    ID_FILE_OPEN            "開く"
+    ID_FILE_CLOSE           "閉じる"
+    ID_FILE_SAVE            "上書き保存"
+    ID_FILE_SAVE_AS         "名前をつけて保存"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "バージョン情報"
+    ID_APP_EXIT             "アプリケーションの終了"
+    ID_HELP                 "ヘルプ"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_STATUS_BAR      "ステータスバーの表示をオンオフする"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_NEW           "新しいウインドウを開く"
+    ID_WINDOW_ARRANGE       "アイコンの整列"
+    ID_WINDOW_CASCADE       "重ねて表示"
+    ID_WINDOW_TILE_HORZ     "上下に並べて表示"
+    ID_WINDOW_TILE_VERT     "左右に並べて表示"
+END
+
+#endif    // 日本語 resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+#ifdef _WIN32
+LANGUAGE 17, 1
+#pragma code_page(932)
+#endif //_WIN32
+#include "res\english.rc2"  // Microsoft Visual C++ 以外のﾂｰﾙで編集されたﾘｿ\ｰｽ
+#include "l.jpn\afxres.rc"          // 標準のｺﾝﾎﾟｰﾈﾝﾄ
+#endif
+#include "toolkit\secres.jpn.rc"
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

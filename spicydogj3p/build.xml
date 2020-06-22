@@ -1,0 +1,159 @@
+﻿<project name="spicydog" default="compile" basedir=".">
+        <property file        = "${properties}"/>
+        <property environment = "env"/>
+
+        <property name="temp" value = "../temp/${appliname}"/>
+        <property name="src"  value = "src"/>
+
+        <target  name="clean">
+                <delete dir = "${temp}"/>
+        </target>
+
+        <target  name = "prepare" depends="clean">
+                <mkdir dir = "${temp}/bin"        />
+                <mkdir dir = "${temp}/classes"    />
+                <mkdir dir = "${temp}/compressed" />
+                <mkdir dir = "${temp}/javasrc"    />
+                <mkdir dir = "${temp}/include"    />
+                <mkdir dir = "${temp}/run"/>
+        </target>
+
+        <target  name="pcompile" depends="prepare">
+                <copy file   = "configure/configure.${appliname}.h"
+                      toFile = "${temp}/include/configure.h"/>
+
+                <exec   executable  = "perl"
+                        failonerror = "on">
+                        <arg path = "tools/javapp.pl"/>
+                        <arg line = "pp"/>
+                        <arg path = "src/SpicydogApp.cpp"/>
+                        <arg path = "${temp}/javasrc/SpicydogApp.java"/>
+                        <arg line = "/I${temp}/include"/>
+                </exec>
+        </target>
+
+        <target  name="jcompile"  depends="pcompile">
+                <javac  deprecation ="on"
+                                debug       ="on"
+                                target      ="1.1"
+                                encoding    ="SJIS"
+                                destdir     ="${temp}/classes"
+                                srcdir      ="${temp}/javasrc"
+                                optimize    ="on" >
+                                
+                        <bootclasspath>
+                                <pathelement path="${env.JPHONESDK_STUBCLASSPATH}"/>
+                        </bootclasspath>
+                        <sourcepath   path="${temp}/javasrc"/>
+                        <classpath    path="${temp}/classes"/>
+                </javac>
+        </target>
+
+        <target name    = "archive"
+                depends = "jcompile">
+                
+                <copy file  ="jad/${appliname}.jad"
+                      toFile="${temp}/bin/sdp.jad"/>
+
+                <exec executable  = "preverify"
+                      failonerror = "on">
+                        <arg line="-classpath"/>
+                        <arg line="${env.JPHONESDK_STUBCLASSPATH}"/>
+                        <arg line="-d"/>
+                        <arg path="${temp}/compressed"/>
+                        <arg path="${temp}/classes"/>
+                </exec>
+
+                <copy   toDir="${temp}/archive">
+                        <fileset dir = "${temp}/compressed"/>
+                </copy>
+                
+                <copy   toDir="${temp}/archive">
+                        <fileset dir = "res/${resname}">
+                                <exclude name="**/CVS/*" />
+                        </fileset>
+                </copy>
+                <zip    destfile="${temp}/bin/sdp.jar"
+                        basedir="${temp}/archive/">
+                </zip>
+                
+                <exec executable = "jar">
+                        <arg line = "tf"/>
+                        <arg path = "${temp}/bin/sdp.jar"/>
+                </exec>
+                
+        </target>
+
+        <target name    = "compile"
+                depends = "archive">
+                <property name = "client" value = "../spicydogj3/sdp/${appliname}"/>
+                <property name = "server" value = "../output/server/${appliname}"/>
+                <mkdir dir = "${client}"/>
+                <mkdir dir = "${server}"/>
+                
+                <copy toDir="${client}">
+                        <fileset dir = "${temp}/bin/"/>
+                </copy>
+                <copy file="html/sdp.htm"     toDir="${client}"/>
+                <copy file="html/icon.png"    toDir="${client}"/>
+                <copy file="html/MANIFEST.MF" toDir="${client}"/>
+
+                <copy toDir="${server}">
+                        <fileset dir = "${temp}/bin/"/>
+                </copy>
+                <copy file = "html/index.htm"   toDir="${server}"/>
+                
+                <exec executable = "jar"
+                      dir        = "html">
+                        <arg line = "uf"/>
+                        <arg path = "${server}/sdp.jar"/>
+                        <arg line = "icon.png"/>
+                </exec>
+                
+                <exec executable = "jar">
+                        <arg line = "tf"/>
+                        <arg path = "${server}/sdp.jar"/>
+                </exec>
+
+                <replace file="${server}/sdp.jad" token="${Vendor}" value="-"/>
+                <!--<replace file="${server}/sdp.jad" token="${JarURL}" value="sdp.jar"/>-->
+        </target>
+
+        <target name    = "copy">
+                <copy toDir="${dstdir}">
+                        <fileset dir = "${srcdir}"/>
+                </copy>
+        </target>
+
+
+        <target name = "run"
+                depends = "compile">
+
+                <!-- ビルダーを起動しJAD/JARを生成
+                
+                <exec executable  = "../output/debug/spicydog.exe"
+                      dir         = "../output/debug/"
+                      failonerror = "on">
+                      <arg line = "build"/>
+                      <arg path = "sdb/test.sdb"/>
+                      <arg path = "${temp}/run"/>
+                </exec>
+
+                <exec executable = "perl"
+                      failonerror = "on">
+                      <arg path="tools/updatejad.pl" />
+                      <arg path="${temp}/run/sdp.jad"/>
+                      <arg path="${temp}/run/sdp.jar"/>
+                </exec>
+                 -->
+                <!-- プレーヤーを起動 
+                <java dir = "C:\prg\J-PHONE-SDK\bin"
+                      jar = "C:\prg\J-PHONE-SDK\bin\jbmidp.jar"
+                      fork= "true">
+                      <arg line = "-DirectExec"/>
+                      <arg path = "${temp}/run/sdp.jad"/>
+                </java>
+                -->
+        </target>
+
+</project>

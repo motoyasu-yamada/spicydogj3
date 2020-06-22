@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSPY v5 rel. 3 U (http://www.xmlspy.com) by Motoyasu Yamada (Motoyasu Yamada) -->
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by Motoyasu Yamada (Spicysoft.) -->
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by Motoyasu Yamada (Spicysoft.) -->
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by Motoyasu Yamada (Spicysoft.) -->
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by Motoyasu Yamada (Spicysoft.) -->
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by Motoyasu Yamada (Spicysoft.) -->
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by Motoyasu Yamada (Spicysoft.) -->
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by Motoyasu Yamada (Spicysoft.) -->
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by Motoyasu Yamada (Spicysoft.) -->
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by Motoyasu Yamada (Spicysoft.) -->
+<xs:schema targetNamespace="spicydog" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="spicydog" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="spicydog">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="appli-conf" type="appli-conf"/>
+				<xs:element name="char-list" type="char-list"/>
+				<xs:element name="main-stage" type="stage"/>
+				<xs:element name="sub-stages">
+					<xs:complexType>
+						<xs:sequence minOccurs="0" maxOccurs="255">
+							<xs:element name="sub-stage">
+								<xs:complexType>
+									<xs:complexContent>
+										<xs:extension base="stage">
+											<xs:sequence>
+												<xs:element name="name"/>
+											</xs:sequence>
+										</xs:extension>
+									</xs:complexContent>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute name="version" type="xs:NMTOKEN" fixed="spicydog_j_3_0"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="stage">
+		<xs:sequence>
+			<xs:element name="layers" type="layers"/>
+		</xs:sequence>
+		<xs:attribute name="id" type="xs:ID" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="action-list">
+		<xs:sequence minOccurs="0" maxOccurs="255">
+			<xs:choice>
+				<xs:element name="play-action" type="action"/>
+				<xs:element name="quit-action" type="action"/>
+				<xs:element name="stop-action" type="action"/>
+				<xs:element name="sound-play-action">
+					<xs:complexType>
+						<xs:complexContent>
+							<xs:extension base="action">
+								<xs:sequence>
+									<xs:element name="sound" type="xs:IDREF" nillable="true"/>
+								</xs:sequence>
+							</xs:extension>
+						</xs:complexContent>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="set-softkey-action">
+					<xs:complexType>
+						<xs:complexContent>
+							<xs:extension base="action">
+								<xs:sequence>
+									<xs:element name="which" type="xs:string"/>
+									<xs:element name="label" type="xs:string"/>
+								</xs:sequence>
+							</xs:extension>
+						</xs:complexContent>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="sound-stop-action" type="action"/>
+				<xs:element name="jump-action">
+					<xs:complexType>
+						<xs:complexContent>
+							<xs:extension base="action">
+								<xs:sequence>
+									<xs:element name="jumpto" type="xs:IDREF" nillable="true"/>
+								</xs:sequence>
+							</xs:extension>
+						</xs:complexContent>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="delay-jump-action">
+					<xs:complexType>
+						<xs:complexContent>
+							<xs:extension base="action">
+								<xs:sequence>
+									<xs:element name="jumpto" type="xs:IDREF" nillable="true"/>
+								</xs:sequence>
+							</xs:extension>
+						</xs:complexContent>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="set-vibration-action">
+					<xs:complexType>
+						<xs:complexContent>
+							<xs:extension base="action">
+								<xs:sequence>
+									<xs:element name="enabled" type="xs:boolean"/>
+								</xs:sequence>
+							</xs:extension>
+						</xs:complexContent>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="set-backlight-action">
+					<xs:complexType>
+						<xs:complexContent>
+							<xs:extension base="action">
+								<xs:sequence>
+									<xs:element name="enabled" type="xs:boolean"/>
+								</xs:sequence>
+							</xs:extension>
+						</xs:complexContent>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="set-background-color-action">
+					<xs:complexType>
+						<xs:complexContent>
+							<xs:extension base="action">
+								<xs:sequence>
+									<xs:element name="color" type="colorref"/>
+								</xs:sequence>
+							</xs:extension>
+						</xs:complexContent>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="random-jump-action">
+					<xs:complexType>
+						<xs:complexContent>
+							<xs:extension base="action">
+								<xs:sequence>
+									<xs:element name="case" maxOccurs="255">
+										<xs:complexType>
+											<xs:sequence>
+												<xs:element name="probability">
+													<xs:simpleType>
+														<xs:restriction base="xs:int">
+															<xs:minInclusive value="0"/>
+															<xs:maxInclusive value="255"/>
+														</xs:restriction>
+													</xs:simpleType>
+												</xs:element>
+												<xs:element name="jumpto" type="xs:IDREF" nillable="true"/>
+											</xs:sequence>
+										</xs:complexType>
+									</xs:element>
+								</xs:sequence>
+							</xs:extension>
+						</xs:complexContent>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="char">
+		<xs:sequence>
+			<xs:element name="name"/>
+		</xs:sequence>
+		<xs:attribute name="id" type="xs:ID" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="point">
+		<xs:sequence>
+			<xs:element name="x" type="xs:int"/>
+			<xs:element name="y" type="xs:int"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="size">
+		<xs:sequence>
+			<xs:element name="cx">
+				<xs:simpleType>
+					<xs:restriction base="xs:unsignedInt">
+						<xs:minInclusive value="64"/>
+						<xs:maxInclusive value="256"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="cy">
+				<xs:simpleType>
+					<xs:restriction base="xs:unsignedInt">
+						<xs:minInclusive value="64"/>
+						<xs:maxInclusive value="256"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="appli-conf">
+		<xs:sequence>
+			<xs:element name="title" type="xs:string"/>
+			<xs:element name="appli-type">
+				<xs:simpleType>
+					<xs:restriction base="xs:NMTOKEN">
+						<xs:enumeration value="jphone-f"/>
+						<xs:enumeration value="jphone-fm"/>
+						<xs:enumeration value="jphone-g"/>
+						<xs:enumeration value="jphone-gm"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="stage-size" type="size"/>
+			<xs:element name="background-color" type="colorref"/>
+			<xs:element name="border-color" type="colorref"/>
+			<xs:element name="frame-rate">
+				<xs:simpleType>
+					<xs:restriction base="xs:unsignedInt">
+						<xs:minInclusive value="1"/>
+						<xs:maxInclusive value="60"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="loop-play" type="xs:boolean"/>
+			<xs:element name="screen-clock-type">
+				<xs:simpleType>
+					<xs:restriction base="xs:NMTOKEN">
+						<xs:enumeration value="clock-none"/>
+						<xs:enumeration value="digital-clock-small"/>
+						<xs:enumeration value="digital-clock-large"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="vendor" type="xs:string"/>
+			<xs:element name="icon" type="xs:hexBinary" minOccurs="0"/>
+			<xs:element name="comment" type="xs:string"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="char-list">
+		<xs:sequence minOccurs="0" maxOccurs="255">
+			<xs:choice>
+				<xs:element name="snd-char" type="snd-char"/>
+				<xs:element name="btn-char" type="btn-char"/>
+				<xs:element name="text-char" type="text-char"/>
+				<xs:element name="pict-char" type="pict-char"/>
+			</xs:choice>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="btn-char">
+		<xs:complexContent>
+			<xs:extension base="char">
+				<xs:sequence>
+					<xs:element name="normal-state-char" type="xs:IDREF" nillable="true"/>
+					<xs:element name="active-state-char" type="xs:IDREF" nillable="true"/>
+					<xs:element name="key-event">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="key-0" type="xs:boolean"/>
+								<xs:element name="key-1" type="xs:boolean"/>
+								<xs:element name="key-2" type="xs:boolean"/>
+								<xs:element name="key-3" type="xs:boolean"/>
+								<xs:element name="key-4" type="xs:boolean"/>
+								<xs:element name="key-5" type="xs:boolean"/>
+								<xs:element name="key-6" type="xs:boolean"/>
+								<xs:element name="key-7" type="xs:boolean"/>
+								<xs:element name="key-8" type="xs:boolean"/>
+								<xs:element name="key-9" type="xs:boolean"/>
+								<xs:element name="key-aster" type="xs:boolean"/>
+								<xs:element name="key-pound" type="xs:boolean"/>
+								<xs:element name="key-left" type="xs:boolean"/>
+								<xs:element name="key-up" type="xs:boolean"/>
+								<xs:element name="key-right" type="xs:boolean"/>
+								<xs:element name="key-down" type="xs:boolean"/>
+								<xs:element name="key-select" type="xs:boolean"/>
+								<xs:element name="key-soft-1" type="xs:boolean"/>
+								<xs:element name="key-soft-2" type="xs:boolean"/>
+							</xs:sequence>
+						</xs:complexType>
+					</xs:element>
+					<xs:element name="jsky-mail-event">
+						<xs:complexType>
+							<xs:all>
+								<xs:element name="use-event" type="xs:boolean"/>
+								<xs:element name="standard-mail" type="xs:boolean"/>
+								<xs:element name="greeting-mail" type="xs:boolean"/>
+								<xs:element name="relay-mail" type="xs:boolean"/>
+								<xs:element name="auto-mail" type="xs:boolean"/>
+								<xs:element name="emergency-mail" type="xs:boolean"/>
+								<xs:element name="supersky-mail" type="xs:boolean"/>
+								<xs:element name="sky-mail" type="xs:boolean"/>
+							</xs:all>
+						</xs:complexType>
+					</xs:element>
+					<xs:element name="jsky-schedule-event">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="use-event" type="xs:boolean"/>
+								<xs:element name="receive-all" type="xs:boolean"/>
+								<xs:element name="criteria">
+									<xs:simpleType>
+										<xs:restriction base="xs:string">
+											<xs:minLength value="0"/>
+											<xs:maxLength value="255"/>
+										</xs:restriction>
+									</xs:simpleType>
+								</xs:element>
+							</xs:sequence>
+						</xs:complexType>
+					</xs:element>
+					<xs:element name="jsk-tel-event">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="use-event" type="xs:boolean"/>
+								<xs:element name="receive-all" type="xs:boolean"/>
+								<xs:element name="criteria">
+									<xs:simpleType>
+										<xs:restriction base="xs:string">
+											<xs:minLength value="0"/>
+											<xs:maxLength value="255"/>
+										</xs:restriction>
+									</xs:simpleType>
+								</xs:element>
+							</xs:sequence>
+						</xs:complexType>
+					</xs:element>
+					<xs:element name="action-list" type="action-list"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="text-char">
+		<xs:complexContent>
+			<xs:extension base="char">
+				<xs:sequence>
+					<xs:element name="text">
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+								<xs:minLength value="0"/>
+								<xs:maxLength value="1024"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:element>
+					<xs:element name="auto-resize" type="xs:boolean"/>
+					<xs:element name="text-color" type="colorref"/>
+					<xs:element name="width">
+						<xs:simpleType>
+							<xs:restriction base="xs:positiveInteger">
+								<xs:minInclusive value="1"/>
+								<xs:maxInclusive value="1024"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:element>
+					<xs:element name="height">
+						<xs:simpleType>
+							<xs:restriction base="xs:positiveInteger">
+								<xs:minInclusive value="1"/>
+								<xs:maxInclusive value="1024"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:element>
+					<xs:element name="font-type" type="xs:string"/>
+					<xs:element name="font-face" type="xs:string"/>
+					<xs:element name="font-size" type="xs:string"/>
+					<xs:element name="font-style-bold" type="xs:anySimpleType"/>
+					<xs:element name="font-style-italic" type="xs:anySimpleType"/>
+					<xs:element name="underline" type="xs:anySimpleType"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="snd-char">
+		<xs:complexContent>
+			<xs:extension base="char">
+				<xs:sequence>
+					<xs:element name="data" type="xs:hexBinary"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="pict-char">
+		<xs:complexContent>
+			<xs:extension base="char">
+				<xs:sequence>
+					<xs:element name="quantize-png">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="bitmap" type="xs:hexBinary"/>
+								<xs:element name="palette-type" type="xs:string"/>
+								<xs:element name="palette">
+									<xs:complexType>
+										<xs:sequence>
+											<xs:element name="palette-entry" type="colorref" minOccurs="0" maxOccurs="255"/>
+										</xs:sequence>
+									</xs:complexType>
+								</xs:element>
+								<xs:element name="colors">
+									<xs:simpleType>
+										<xs:restriction base="xs:int">
+											<xs:minInclusive value="2"/>
+											<xs:maxInclusive value="256"/>
+										</xs:restriction>
+									</xs:simpleType>
+								</xs:element>
+								<xs:element name="use-dither" type="xs:boolean"/>
+								<xs:element name="use-transparency" type="xs:boolean"/>
+								<xs:element name="transparent-color" type="colorref"/>
+							</xs:sequence>
+						</xs:complexType>
+					</xs:element>
+					<xs:element name="quantize-jpg">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="bitmap" type="xs:hexBinary"/>
+								<xs:element name="compression">
+									<xs:simpleType>
+										<xs:restriction base="xs:int">
+											<xs:minInclusive value="0"/>
+											<xs:maxInclusive value="100"/>
+										</xs:restriction>
+									</xs:simpleType>
+								</xs:element>
+							</xs:sequence>
+						</xs:complexType>
+					</xs:element>
+					<xs:element name="path-through">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="data" type="xs:hexBinary"/>
+							</xs:sequence>
+						</xs:complexType>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="layers">
+		<xs:sequence maxOccurs="255">
+			<xs:element name="layer">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="name" type="xs:string"/>
+						<xs:element name="visible" type="xs:boolean"/>
+						<xs:element name="locked" type="xs:boolean"/>
+						<xs:element name="char" type="xs:IDREF" nillable="true"/>
+						<xs:element name="key-frame-list">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="frame-length" type="xs:int"/>
+									<xs:sequence minOccurs="0" maxOccurs="9999">
+										<xs:element name="key-frame">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="pos">
+														<xs:simpleType>
+															<xs:restriction base="xs:int">
+																<xs:minInclusive value="0"/>
+																<xs:maxInclusive value="9999"/>
+															</xs:restriction>
+														</xs:simpleType>
+													</xs:element>
+													<xs:element name="empty" type="xs:boolean"/>
+													<xs:element name="placing">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="x" type="xs:int"/>
+																<xs:element name="y" type="xs:int"/>
+																<xs:element name="cx" type="xs:double"/>
+																<xs:element name="cy" type="xs:double"/>
+																<xs:element name="radian" type="xs:double"/>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="coloring">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="add-red">
+																	<xs:simpleType>
+																		<xs:restriction base="xs:int">
+																			<xs:minInclusive value="-255"/>
+																			<xs:maxInclusive value="255"/>
+																		</xs:restriction>
+																	</xs:simpleType>
+																</xs:element>
+																<xs:element name="add-green">
+																	<xs:simpleType>
+																		<xs:restriction base="xs:int">
+																			<xs:minInclusive value="-255"/>
+																			<xs:maxInclusive value="255"/>
+																		</xs:restriction>
+																	</xs:simpleType>
+																</xs:element>
+																<xs:element name="add-blue">
+																	<xs:simpleType>
+																		<xs:restriction base="xs:int">
+																			<xs:minInclusive value="-255"/>
+																			<xs:maxInclusive value="255"/>
+																		</xs:restriction>
+																	</xs:simpleType>
+																</xs:element>
+																<xs:element name="mul-red">
+																	<xs:simpleType>
+																		<xs:restriction base="xs:double">
+																			<xs:minInclusive value="-255"/>
+																			<xs:maxInclusive value="255"/>
+																		</xs:restriction>
+																	</xs:simpleType>
+																</xs:element>
+																<xs:element name="mul-green">
+																	<xs:simpleType>
+																		<xs:restriction base="xs:double">
+																			<xs:minInclusive value="-255"/>
+																			<xs:maxInclusive value="255"/>
+																		</xs:restriction>
+																	</xs:simpleType>
+																</xs:element>
+																<xs:element name="mul-blue">
+																	<xs:simpleType>
+																		<xs:restriction base="xs:double">
+																			<xs:minInclusive value="-255"/>
+																			<xs:maxInclusive value="255"/>
+																		</xs:restriction>
+																	</xs:simpleType>
+																</xs:element>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="animating">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="use-animation" type="xs:boolean"/>
+																<xs:element name="easing">
+																	<xs:simpleType>
+																		<xs:restriction base="xs:int">
+																			<xs:minInclusive value="-100"/>
+																			<xs:maxInclusive value="100"/>
+																		</xs:restriction>
+																	</xs:simpleType>
+																</xs:element>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="use-label" type="xs:boolean"/>
+													<xs:element name="label-name" type="xs:string"/>
+													<xs:element name="label-comment" type="xs:string"/>
+													<xs:element name="action-list" type="action-list"/>
+												</xs:sequence>
+												<xs:attribute name="id" type="xs:ID" use="required"/>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:simpleType name="colorref">
+		<xs:restriction base="xs:string">
+			<xs:length value="7"/>
+			<xs:pattern value="#[0-9a-f]{6}"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="action"/>
+</xs:schema>
